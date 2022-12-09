@@ -21,14 +21,6 @@
         <p class="logo">Sh.</p>
       </div>
 
-      <br><br><br>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4" style="background: #010020; border-radius: 15px;">
-
       <br><br><br><br><br><br><br>
 
       <div class="container-fluid">
@@ -40,22 +32,21 @@
             <br>
             <p class="reg_heading">Войти</p>
             <br>
-            <form style="text-align:center;">
+            <form action="reg_action.php" method="post" style="text-align:center;">
 
-              <input class="reg_input" placeholder="Введите имя пользователя"><br><br><br>
-              <input class="reg_input" type="password" placeholder="Введите пароль"><br><br>
+              <input class="reg_input" name="user_name" placeholder="Введите имя пользователя"><br><br><br>
+              <input class="reg_input" name="psw" type="password" placeholder="Введите пароль"><br><br>
 
               <a class="link_password" href="#">Забыли пароль?</a><br><br>
 
-              <form action="reg_test1.html" align="right">
-                <button class="button">Войти</button>
+              <form action="reg_action.php" method="post" align="right">
+                <button class="button" name="In" value="In" >Войти</button>
               </form><br><br>
 
             </form>
           </div>
-
-          <div class="col-md-4">
-          </div>
+          
+          <div class="col-md-4"></div>
 
         </div>
       </div>
