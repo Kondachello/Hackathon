@@ -24,7 +24,6 @@
       <div class="carousel-item active">
         <img src="..." class="d-block w-100" alt="...">
       </div>
-<<<<<<< HEAD
 
       <br><br><br><br><br><br><br>
 
@@ -67,20 +66,11 @@
           <div class="col-md-4"></div>
 
         </div>
-=======
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
->>>>>>> a115be1f6b49586f1b9a5937eb69ca64f6d72a14
       </div>
       <div class="carousel-item">
         <img src="..." class="d-block w-100" alt="...">
       </div>
-<<<<<<< HEAD
     </div>           
   </body>
   
-=======
-    </div>
-  </div>
->>>>>>> a115be1f6b49586f1b9a5937eb69ca64f6d72a14
 </html>
