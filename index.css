@@ -14,7 +14,7 @@
 }
 
 .bg {
-  background-color: #010026;
+  background: url(bg.jpg);
 }
 
 .header {

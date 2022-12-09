@@ -27,7 +27,7 @@
         <div class="row">
           <div class="col-md-4">
           </div>
-          <div class="col-md-4" style="background: linear-gradient(180deg, rgba(83, 2, 255, 0.2) 0.03%, rgba(185, 2, 255, 0.2) 99.97%); border-radius: 15px;">
+          <div class="col-md-4" style="background: #010020; border-radius: 15px;">
 
             <br>
             <p class="reg_heading">Регистрация компании</p>
