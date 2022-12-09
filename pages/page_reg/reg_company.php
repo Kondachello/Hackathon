@@ -34,7 +34,7 @@
             <br>
             <form action="reg_action.php" method="post" style="text-align:center;">
 
-              <input class="reg_input" placeholder="Введите ваше название"  name="title"><br><br><br>
+              <input class="reg_input" placeholder="Введите Ваше название"  name="title"><br><br><br>
               <input class="reg_input" placeholder="Введите имя пользователя" name="user_name"><br><br><br>
               <input class="reg_input" placeholder="Введите Email" name="email"><br><br><br>
               <input class="reg_input" type="password" placeholder="Введите пароль"  name="psw"><br><br><br>
