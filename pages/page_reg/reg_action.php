@@ -2,7 +2,7 @@
     include "func_reg.php";
 
     $url = '../../index.php';
-    header('Refresh: 2; url=' . $url);
+    // header('Refresh: 2; url=' . $url);
 
     if ($_POST['In'] == 'In') {
         sign_in();
