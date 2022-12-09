@@ -38,7 +38,7 @@
               <input class="reg_input" name="psw" type="password" placeholder="Введите пароль"><br><br>
 
               <a class="link_password" href="#">Забыли пароль?</a><br>
-              <a class="link_password" href="reg.php">Регистрация</a><br><br>
+              <a class="link_password" href="reg_company.php">Регистрация</a><br><br>
 
               <form action="reg_action.php" method="post" align="right">
                 <button class="button" name="In" value="In" >Войти</button>
