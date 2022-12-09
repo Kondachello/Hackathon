@@ -19,30 +19,34 @@
         $fl_is_in_bd = false;
         while (($table_query = mysqli_fetch_assoc($query_db))) {
             if ($table_query['Password'] == $user_name) {
-                echo "Пользователь уже существует";
-                echo "Придумайте другой username";
+                $_SESSION['user'] = "Пользователь уже существует Придумайте другой username";
                 $fl_is_in_bd = true;
+                return false;
                 break;
             }
         }
 
         if (!$fl_is_in_bd) {
             if ($psw != $psw_rep) {
-                echo "Пароли не совпадают";
+                $_SESSION['user'] = "Пароли не совпадают";
+                return false;
             }
             else {
                 $qery_to_reg = "INSERT INTO `userstudent` (`id`, `UserName`, `Email`, `Password`, `Img`, `SurnameName`, `ResumeStack`, `OrderHistory`, `Contacts`, `Tags`, `Projects`, `QrCode`) 
                     VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$surname_name."', '', '', '', '', '', '')";
                 $return = mysqli_query($db_connection, $qery_to_reg);
                 if ($return) {
-                    echo "Вы зарегестрировались";
+                    $_SESSION['user'] = "Вы зарегестрировались";
                 }
                 else {
-                    echo "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
+                    $_SESSION['user'] = "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
+                    return false;
                 }
 
             }
         }
+
+        return true;
     }
 
     function registration_company() {
@@ -61,31 +65,34 @@
         $fl_is_in_bd = false;
         while (($table_query = mysqli_fetch_assoc($query_db))) {
             if ($table_query['UserName'] == $user_name) {
-                echo "Пользователь уже существует";
-                echo "Придумайте другой username";
+                $_SESSION['user'] = "Пользователь уже существует Придумайте другой username";
                 $fl_is_in_bd = true;
+                return false;
                 break;
             }
         }
 
         if (!$fl_is_in_bd) {
             if ($psw != $psw_rep) {
-                echo "Пароли не совпадают";
+                $_SESSION['user'] = "Пароли не совпадают";
+                return false;
             }
             else {
                 $qery_to_reg = "INSERT INTO `usercompany` (`id`, `UserName`, `Email`, `Password`, `Img`, `Title`, `Discription`, `Orders`, `Investment`, `Contacts`, `Tags`, `QrCode`) 
             VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$title."', '', '', '', '', '', '')";
                 $return = mysqli_query($db_connection, $qery_to_reg);
                 if ($return) {
-                    echo "Вы зарегестрировались";
+                     $_SESSION['user'] = "Вы зарегестрировались";
                 }
                 else {
-                    echo "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
+                    $_SESSION['user'] = "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
                 }
 
             }
         }
 
+
+        return true;
     }
 
     function sign_in() {
@@ -108,8 +115,9 @@
                     break;
                 } 
                 else {
-                    echo "Неверный пароль";
+                    $_SESSION['user'] = 'Неверный пароль';
                     $if_in_st = false;
+                    return false;
                 }
             }
         }
@@ -123,20 +131,21 @@
                         break;
                     } 
                     else {
-                        echo "Неверный пароль";
+                        $_SESSION['user'] = 'Неверный пароль';
                         $if_in_st = false;
+                        return false;
                     }
                 }
             }
         }
 
         if (!$if_in_st) {
-            echo "Пользователь не найден <br>";
-            echo '<a href="../page_reg/reg_student.php" class="link">Регистрация студенту</a><br>';
-            echo '<a href="../page_reg/reg_company.php" class="link">Регистрация компании</a><br>';
+            $_SESSION['user'] = "Пользователь не найден";
+            //echo '<a href="../page_reg/reg_student.php" class="link">Регистрация студенту</a><br>';
+            //echo '<a href="../page_reg/reg_company.php" class="link">Регистрация компании</a><br>';
         }
         else {
-            echo "Привет" . $user_name;
+            // echo "Привет" . $user_name;
             return true;
         }
     }

@@ -30,18 +30,18 @@
           <div class="col-md-4" style="background: #010020; border-radius: 15px;">
 
             <br>
-            <p class="reg_heading">Регистрация компании</p>
+            <p class="reg_heading">Регистрация студента</p>
             <br>
             <form action="reg_action.php" method="post" style="text-align:center;">
 
-              <input class="reg_input" placeholder="Введите Ваше имя и фамилию"><br><br><br>
-              <input class="reg_input" placeholder="Введите имя пользователя"><br><br><br>
-              <input class="reg_input" placeholder="Введите Email"><br><br><br>
-              <input class="reg_input" type="password" placeholder="Введите пароль"><br><br><br>
-              <input class="reg_input" type="password" placeholder="Повторите пароль"><br><br><br>
+              <input class="reg_input" placeholder="Введите Ваше имя и фамилию" name="surname_name"><br><br><br>
+              <input class="reg_input" placeholder="Введите имя пользователя" name="user_name"><br><br><br>
+              <input class="reg_input" placeholder="Введите Email" name="email"><br><br><br>
+              <input class="reg_input" type="password" placeholder="Введите пароль" name="psw"><br><br><br>
+              <input class="reg_input" type="password" placeholder="Повторите пароль" name="psw-repeat"><br><br><br>
 
               <form action="reg_action.php" method="post" align="right">
-                <button class="button" name="reg_company" value="reg_company">Зарегистрироваться</button>
+                <button class="button" name="reg_student" value="reg_student">Зарегистрироваться</button>
               </form><br><br>
 
             </form>
