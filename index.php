@@ -13,21 +13,21 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="modules/itc-slider/itc-slider.css">
-    <!-- JavaScript -->
-    <script src="modules/itc-slider/itc-slider.js" defer></script>
   </head>
-  <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="7000">
-    <div class="itc-slider__wrapper">
-      <div class="itc-slider__items">
-        <div class="itc-slider__item">
-          <img src="images/1.jpg" alt="...">
-        </div>
-        <div class="itc-slider__item">
-          <img src="images/ava.jpg" alt="...">
-        </div>
-        <div class="itc-slider__item">
-          <img src="images/jr.jpg" alt="...">
+  <body>
+    <div class="bg">
+      <div class="header">
+        <p class="logo">Sh.</p>
+        <img class="img-responsive" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
+        <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
+        <img class="photo" src="images/ava.jpg">
+      </div>
+
+      <br><br><br><br>  
+
+      <div class="container-fluid">
+        <div class="heading">
+          <p>Students help</p>
         </div>
       </div>
 
@@ -121,8 +121,5 @@
         <br><br>
       </div>
     </div>
-  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
-  <button class="itc-slider__btn itc-slider__btn_prev"></button>
-  <button class="itc-slider__btn itc-slider__btn_next"></button>
-</div>
+  </body>
 </html>
