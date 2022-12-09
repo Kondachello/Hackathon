@@ -30,7 +30,6 @@
           <img src="images/jr.jpg" alt="...">
         </div>
       </div>
-<<<<<<< HEAD
 
       <br><br><br>
 
@@ -121,13 +120,6 @@
         </div>
         <br><br>
       </div>
-=======
-      <ol class="itc-slider__indicators">
-        <li class="itc-slider__indicator" data-slide-to="0"></li>
-        <li class="itc-slider__indicator" data-slide-to="1"></li>
-        <li class="itc-slider__indicator" data-slide-to="2"></li>
-      </ol>
->>>>>>> a115be1f6b49586f1b9a5937eb69ca64f6d72a14
     </div>
   <!-- Кнопки для перехода к предыдущему и следующему слайду -->
   <button class="itc-slider__btn itc-slider__btn_prev"></button>
