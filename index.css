@@ -133,6 +133,38 @@
   color: #8D8D8D;
 }
 
+.text5 {
+  text-align: left;
+  font-family: 'Inter-Bold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 58px;
+  background: linear-gradient(90deg, #5101FF, #B901FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.text7 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
 .heading {
   text-align: center;
   font-family: 'Inter-Bold';
@@ -161,9 +193,14 @@
   transform: rotate(90deg);
 }
 
-.vl {
+.v1 {
   border-left: 2px solid #7C02FF;
   height: 500px;
+}
+
+.v2 {
+  border-left: 2px solid #7C02FF;
+  height: 800px;
 }
 
 .button {

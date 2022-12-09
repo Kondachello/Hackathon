@@ -47,7 +47,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-1">
-            <div class="vl"></div>
+            <div class="v1"></div>
           </div>
           <div class="col-md-4">
             <img class="img-responsive img-rounded" src="images/jr.jpg">
@@ -69,7 +69,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-2">
-            <div class="vl"></div>
+            <div class="v1"></div>
           </div>
           <div class="col-md-3">
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
