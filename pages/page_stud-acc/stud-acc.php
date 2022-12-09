@@ -20,7 +20,7 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <a class="link" href="#">Вход</a>
-        <img class="photo" src="images/ava.jpg">
+        <img class="photo" src="../../images/ava.jpg">
       </div>
 
       <br><br><br><br>
@@ -34,7 +34,7 @@
 
             <br>
 
-            <div style="background: url(images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
+            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
               <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
               <br>
               <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -59,7 +59,7 @@
 
             <br>
 
-            <div style="background: url(images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
+            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
               <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
               <br>
               <p class="text6" style="margin-left: 10%; width: 80%; ">Студенты ИТМО</p>
@@ -90,7 +90,7 @@
 
             <br>
 
-            <div style="background: url(images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
+            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
               <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
               <br>
               <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -115,7 +115,7 @@
 
             <br>
 
-            <div style="background: url(images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
+            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
               <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
               <br>
               <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
