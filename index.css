@@ -1,0 +1,199 @@
+@font-face {
+  font-family: Inter-Bold;
+  src: url(fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-Thin;
+  src: url(fonts/Inter-Thin.ttf);
+}
+
+.bg {
+  background-color: #010026;
+}
+
+.header {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 80px;
+  width: 100%;
+}
+
+.link {
+  position: absolute;
+  top: 2%;
+  right: 120px;
+  width: 5%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.photo {
+  position: absolute;
+  top: 1%;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  background: linear-gradient(90deg, #221183 -6.16%, #7B45EC 99.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+.text2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.text3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.text4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8D8D8D;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Inter-Bold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  background: linear-gradient(90deg, #5101FF, #B901FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.sh {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  background: linear-gradient(90deg, #5101FF -36.11%, #B901FF 92.09%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  transform: rotate(90deg);
+}
+
+.vl {
+  border-left: 2px solid #7C02FF;
+  height: 500px;
+}
+
+.button {
+  border-radius: 35px;
+  height: 60px;
+  width: 250px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  background: linear-gradient(90deg, #5101FF, #B901FF);
+}
+
+.reg_c {
+  margin-left: 35%;
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(180deg, rgba(83, 2, 255, 0.2) 0.03%, rgba(185, 2, 255, 0.2) 99.97%);
+}
+
+.reg_heading {
+  font-family: 'Inter-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 58px;
+  text-align: center;
+  background: linear-gradient(90deg, #5101FF, #B901FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.reg_input {
+  border-radius: 35px;
+  height: 60px;
+  width: 450px;
+  color: #FFFFFF;
+  font-family: 'Inter-Thin';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  background: transparent;
+  border: solid #8901FF;
+  border-width: 1px;
+}
+input:invalid {
+  animation: shake .3s;
+} 
+@keyframes shake{
+  25% { transform: translateX(10px);
+}
