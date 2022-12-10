@@ -12,10 +12,140 @@
     
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+    <script>
+      function reveal1() {
+        var right = document.querySelectorAll(".preanim-right");
+
+        for (var i = 0; i < right.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = right[i].getBoundingClientRect().top;
+          var elementVisible = 10;
+
+          if (elementTop < windowHeight - elementVisible) {
+            right[i].classList.add("animated-right");
+          } else {
+            right[i].classList.remove("animated-right");
+          }
+        }
+      }
+      function reveal2() {
+        var left = document.querySelectorAll(".preanim-left");
+
+        for (var i = 0; i < left.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = left[i].getBoundingClientRect().top;
+          var elementVisible = 10;
+
+          if (elementTop < windowHeight - elementVisible) {
+            left[i].classList.add("animated-left");
+          } else {
+            left[i].classList.remove("animated-left");
+          }
+        }
+      }
+      function reveal3() {
+        var up = document.querySelectorAll(".preanim-up");
+
+        for (var i = 0; i < up.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = up[i].getBoundingClientRect().top;
+          var elementVisible = 10;
+
+          if (elementTop < windowHeight - elementVisible) {
+            up[i].classList.add("animated-up");
+          } else {
+            up[i].classList.remove("animated-up");
+          }
+        }
+      }
+      function reveal4() {
+        var bot = document.querySelectorAll(".preanim-bot");
+
+        for (var i = 0; i < bot.length; i++) {
+          var windowHeight = window.innerHeight;
+          var elementTop = bot[i].getBoundingClientRect().top;
+          var elementVisible = -300;
+
+          if (elementTop < windowHeight - elementVisible) {
+            bot[i].classList.add("animated-bot");
+          } else {
+            bot[i].classList.remove("animated-bot");
+          }
+        }
+      }
+
+      window.addEventListener("scroll", reveal1);
+      window.addEventListener("scroll", reveal2);
+      window.addEventListener("scroll", reveal3);
+      window.addEventListener("scroll", reveal4);
+
+
+      /*(function () {
+        var left = document.querySelector('.preanim-left');
+
+        var observer2 = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+              return;
+            }
+
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animated-left');
+            }
+          });
+        });
+
+        observer2.observe(left);
+      })();
+
+
+      (function () {
+        var up = document.querySelector('.preanim-up');
+
+        var observer3 = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+              return;
+            }
+
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animated-up');
+            }
+          });
+        });
+
+        observer3.observe(up);
+      })();
+
+
+      (function () {
+        var bot = document.querySelector('.preanim-bot');
+
+        var observer4 = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+              return;
+            }
+
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animated-bot');
+            }
+          });
+        });
+
+        observer4.observe(bot);
+      })();*/
+    </script>
+
+
+
   </head>
   <body>
     <div class="bg">
-      <div class="header animated-up">
+      <div class="header preanim-up">
         <p class="logo">Sh.</p>
         <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
@@ -25,7 +155,7 @@
       <br><br><br><br>  
 
       <div class="container-fluid">
-        <div class="heading animated-up">
+        <div class="heading preanim-up">
           <p>Students help</p>
         </div>
       </div>
@@ -36,7 +166,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4 animated-left">
+          <div class="col-md-4 preanim-left">
             <br>
             <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -49,7 +179,7 @@
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
-          <div class="col-md-4 animated-right">
+          <div class="col-md-4 preanim-right">
             <br>
             <img class="img-fluid rounded" src="images/prg1.jpg">
           </div>
@@ -64,7 +194,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4 animated-left">
+          <div class="col-md-4 preanim-left">
             <br>
             <img class="img-fluid rounded" src="images/prg2.jpg">
           </div>
@@ -73,7 +203,7 @@
           <div class="col-md-2">
             <div class="v1"></div>
           </div>
-          <div class="col-md-3 animated-right">
+          <div class="col-md-3 preanim-right">
             <br>
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
             <p class="text2" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -92,7 +222,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4 animated-left">
+          <div class="col-md-4 preanim-left">
             <br>
             <p class="text1">Нужно быстро и срочно разобраться с мелко пробелмой? Обратитесь к студентма!</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -105,7 +235,7 @@
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
-          <div class="col-md-4 animated-right">
+          <div class="col-md-4 preanim-right">
             <br>
             <img class="img-fluid rounded" src="images/prg3.jpg">
           </div>
@@ -117,13 +247,13 @@
       <br><br><br>
 
       <div class="container-fluid">
-        <div class="heading animated-up">
+        <div class="heading preanim-up">
           <p>С нами уже работали</p>
         </div>
       </div>
 
       <br><br><br><br>
-      <div class = "animated-bot" style = "margin:0 auto; width:75%;">
+      <div class = "preanim-bot" style = "margin:0 auto; width:75%;">
         <div class="itc-slider itc-slider-4" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
           <div class="itc-slider__wrapper">
             <div class="itc-slider__items">

@@ -366,7 +366,7 @@ a.svg:after {
   bottom: 0;
   left: 0;
 }
-.animated-left{
+.preanim-left.animated-left{
   transform: translateY(-150%);
   animation: anileft 1s forwards;
 }
@@ -375,7 +375,7 @@ a.svg:after {
   0% {transform: translateX(-150%);}
   100% {transform: translateY(0);}
 }
-.animated-right{
+.preanim-right.animated-right{
   transform: translateY(150%);
   animation: aniright 1s forwards;
 }
@@ -384,21 +384,35 @@ a.svg:after {
   0% {transform: translateX(150%);}
   100% {transform: translateY(0);}
 }
-.animated-up{
+.preanim-up.animated-up{
   transform: translateY(150%);
   animation: aniup 3s forwards;
 }
 
 @keyframes aniup {
   0% {transform: translateY(-150%);}
+  50% {transform: translateY(-100%);}
   100% {transform: translateY(0);}
 }
-.animated-bot{
+.preanim-bot.animated-bot{
   transform: translateY(150%);
   animation: anibot 3s forwards;
 }
 
 @keyframes anibot {
   0% {transform: translateY(150%);}
+  50% {transform: translateY(50%);}
   100% {transform: translateY(0);}
+}
+.preanim-right{
+
+}
+.preanim-left{
+  
+}
+.preanim-up{
+  
+}
+.preanim-bot{
+  
 }
