@@ -18,15 +18,15 @@
 
       <br><br><br><br>
 
-      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div style="background: url(../../images/cmp-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
-          <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+          <img src="../../images/apple.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
         <div style="float: left; margin-left: 35px;">
           <br><br><br>
           <p class="text1">Apple</p>
-          <p class="text2">Моя цель</p>
-          <br><br><br>
+          <p class="text2">Наша цель</p>
+          <br>
           <a href="http://vk.com" class="svg">
             <object
               type="image/svg+xml"
@@ -46,7 +46,7 @@
             </object>
           </a>
         </div>
-        <div style="float: right; margin-right: 50px; margin-top: 185px;">
+        <div style="float: right; margin-right: 50px; margin-top: 150px;">
           <br><br>
           <form action="pages/page_reg/reg_student.php" align="bottom">
             <button class="button">Редактировать профиль</button>
@@ -74,7 +74,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -82,7 +82,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -101,7 +101,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -109,7 +109,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -117,6 +117,12 @@
                   <br>
                 </div>
               </a>
+              <div style="margin-left: 110px; margin-top: 590px;">
+                <br><br>
+                <form action="../page_order/make-order.php">
+                  <button class="button">Сделать заказ</button>
+                </form>
+              </div>
             </div>
             <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
               <br><br><br><br>
@@ -128,7 +134,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -136,7 +142,7 @@
                   <br>
                 </div>
               </a>
-              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>

@@ -299,7 +299,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(0, 23, 37);
   padding: 20px;
   display: none;
 }
@@ -314,17 +314,17 @@
 
 .tabs__block:nth-child(1):before {
   left: 0;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(0, 23, 37);;
 }
 
 .tabs__block:nth-child(2):before {
   left: 33.333%;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(0, 23, 37);;
 }
 
 .tabs__block:nth-child(3):before {
   left: 66.666%;
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(0, 23, 37);;
 }
 
 .tabs__block:target {
@@ -358,7 +358,7 @@
     float: left; 
 }
 
-a.svg:after {
+a.svg:nth-child(1):after {
   content: "";
   position: absolute;
   top: 0;
@@ -366,7 +366,7 @@ a.svg:after {
   bottom: 0;
   left: 0;
 }
-.preanim-left.animated-left{
+
   transform: translateY(-150%);
   animation: anileft 1s forwards;
 }
