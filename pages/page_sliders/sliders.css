@@ -6,7 +6,7 @@
       box-sizing: border-box;
     }
 
-    .container {
+    .container-slides {
       border-radius: 35px;
 	  height: 60px;
 	  width: 250px;
@@ -28,7 +28,6 @@
       flex: 0 0 100%;
       max-width: 100%;
       counter-increment: slide;
-      height: 60px;
 
       position: relative;
     }

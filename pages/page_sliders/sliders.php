@@ -10,7 +10,7 @@
 
   </head>
   <body>
-    <div class="container">
+    <div class="container-slides">
 
       <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
         <div class="itc-slider__wrapper">
@@ -33,6 +33,7 @@
               <form action="pages/page_reg/reg_company.php" align="left">
                 <button class="button">Предложить работу</button>
               </form>
+
 
             </div>
             <div class="itc-slider__item">

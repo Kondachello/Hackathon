@@ -4,6 +4,8 @@
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../page_sliders/sliders.css">
+
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,8 +13,14 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../../modules/itc-slider/itc-slider.css">
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- JavaScript -->
+    <script src="../../modules/itc-slider/itc-slider.js" defer></script>
+
   </head>
   <body>
     <div class="bg">
@@ -33,14 +41,59 @@
             <p class="text5">У меня в работе</p>
 
             <br>
+            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
+              <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                  <div class="itc-slider__item">
 
-            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
-              <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
-              <br>
-              <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-              <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-              <br>
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                  </div>
+
+                  </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                    
+                  </div>
+
+                  </div>
+                </div>
               </div>
+              <button class="itc-slider__btn itc-slider__btn_prev"></button>
+              <button class="itc-slider__btn itc-slider__btn_next"></button>
+              <ol class="itc-slider__indicators">
+                <li class="itc-slider__indicator" data-slide-to="0"></li>
+                <li class="itc-slider__indicator" data-slide-to="1"></li>
+                <li class="itc-slider__indicator" data-slide-to="2"></li>
+              </ol>
             </div>
 
             <br>

@@ -19,10 +19,10 @@
         $db_login = 'root';
 
         // Password to db
-        $db_password = 'root';
+        $db_password = 'neAuti228cg_huyble';
 
         // Name od db
-        $db_name = 'hackaton 5';
+        $db_name = 'hackathon 5';
 
         // connect
         $db_connection = mysqli_connect($db_host_ip, $db_login, $db_password, $db_name);
