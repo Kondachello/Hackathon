@@ -5,19 +5,27 @@
         // Connect to db
         $db_connect = connect();
 
+        // 
+        $id = 0;
+        $query_db = mysqli_query($db_connect, "SELECT * FROM `orders`");
+        while (($table_query = mysqli_fetch_assoc($query_db))) {
+            $id = $table_query['id'];
+        }
+        $id++;
+
         // Get info from form
         $title = $_POST['title'];
         $Description = $_POST['Description'];
         $Requare = $_POST['Requare'];
         // files
-        $url_avatars = "C:\Users\Ольга\Desktop\Kolya olymp\OpenServer\OpenServer\domains\ictHACK5\Hackathon\Hackathon\Avatars\\";
-        $url_files = "C:\Users\Ольга\Desktop\Kolya olymp\OpenServer\OpenServer\domains\ictHACK5\Hackathon\Hackathon\Avatars\\";
+        $url_avatars = "../../Data/Orders/Avatars/";
+        $url_files = "../../Data/Orders/Rars/";
 
-        $file_order_avatar_name = $_FILES['order_avatar']['name'];
+        $file_order_avatar_name = $id . '_' . $_FILES['order_avatar']['name'];
         $file_order_avatar_tmp = $_FILES['order_avatar']['tmp_name'];
         $file_order_avatar_size = $_FILES['order_avatar']['size'];
         
-        $file_order_rar_name = $_FILES['order_rar']['name'];
+        $file_order_rar_name = $id . '_' . $_FILES['order_rar']['name'];
         $file_order_rar_tmp = $_FILES['order_rar']['tmp_name'];
         $file_order_rar_size = $_FILES['order_rar']['size'];
 
@@ -44,6 +52,7 @@
             echo "Не удалось загрузить " . $file_order_rar_name;
             return false;
         }
+
 
         // sql query
         $sql_query = "INSERT INTO `orders` (`id`, `Title`, `Tags`, `Description`, `Requare`, `Image`, `Files`, `Price`, `Dedline`, `Developers`) 
