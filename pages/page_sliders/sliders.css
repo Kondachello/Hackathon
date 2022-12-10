@@ -35,6 +35,7 @@
       max-width: 100%;
       counter-increment: slide;
       height: 150px;
+
       position: relative;
     }
 
@@ -51,7 +52,7 @@
     }
 
     .itc-slider-2 .itc-slider__item {
-      flex: 0 0 100%;
+      flex: 0 0 50%;
       max-width: 50%;
       height: 150px;
       display: flex;
