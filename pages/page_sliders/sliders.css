@@ -6,16 +6,10 @@
       box-sizing: border-box;
     }
 
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-      'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol';
-    }
-
     .container {
-      max-width: 700px;
-      margin: 0 auto;
+      border-radius: 35px;
+	  height: 60px;
+	  width: 250px;
     }
 
     .itc-slider__wrapper {
@@ -34,12 +28,12 @@
       flex: 0 0 100%;
       max-width: 100%;
       counter-increment: slide;
-      height: 150px;
+      height: 60px;
 
       position: relative;
     }
 
-    .itc-slider-1 .itc-slider__item::before {
+   .itc-slider-1 .itc-slider__item::before {
       content: counter(slide) "/5";
       position: absolute;
       top: 10px;
@@ -62,7 +56,7 @@
       font-size: 5rem;
     }
 
-    .itc-slider__item:nth-child(1) {
+/*   .itc-slider__item:nth-child(1) {
       background-color: #f44336;
     }
 
@@ -80,4 +74,4 @@
 
     .itc-slider__item:nth-child(5) {
       background-color: #4caf50;
-    }
+    }*/

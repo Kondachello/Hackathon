@@ -19,16 +19,27 @@
               
             </div>
             <div class="itc-slider__item">
-              
+              <form action="pages/page_reg/reg_company.php" align="left">
+                <button class="button">Предложить работу</button>
+              </form>
+
             </div>
             <div class="itc-slider__item">
-              <img src="../../images/1.jpg" alt = "...">
+              <form action="pages/page_reg/reg_company.php" align="left">
+                <button class="button">Предложить работу</button>
+              </form>
             </div>
             <div class="itc-slider__item">
-              <!-- Контент 4 слайда -->
+              <form action="pages/page_reg/reg_company.php" align="left">
+                <button class="button">Предложить работу</button>
+              </form>
+
             </div>
             <div class="itc-slider__item">
-              <!-- Контент 5 слайда -->
+              <form action="pages/page_reg/reg_company.php" align="left">
+                <button class="button">Предложить работу</button>
+              </form>
+
             </div>
           </div>
         </div>
