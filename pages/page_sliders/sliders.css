@@ -6,32 +6,26 @@
       box-sizing: border-box;
     }
 
-    .container-slides {
-      border-radius: 35px;
-	  height: 60px;
-	  width: 250px;
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
     }
 
     .itc-slider__wrapper {
       overflow: hidden;
     }
-
     .itc-slider__items {
       counter-reset: slide;
     }
-
     .itc-slider-1 {
       margin-bottom: 1rem;
     }
-
     .itc-slider-1 .itc-slider__item {
       flex: 0 0 100%;
       max-width: 100%;
       counter-increment: slide;
-
       position: relative;
     }
-
    .itc-slider-1 .itc-slider__item::before {
       content: counter(slide);
       position: absolute;
@@ -44,12 +38,16 @@
     .itc-slider-2 .itc-slider__item {
       flex: 0 0 50%;
       max-width: 50%;
-      height: 150px;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: rgba(255, 255, 255, 0.8);
-      font-size: 5rem;
+    }
+    .itc-slider-4 .itc-slider__item {
+      flex: 0 0 25%;
+      max-width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
 .square-wrapper {
