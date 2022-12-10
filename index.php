@@ -4,6 +4,7 @@
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pages/page_sliders/sliders.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,8 +12,11 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../../modules/itc-slider/itc-slider.css">
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="../../modules/itc-slider/itc-slider.js" defer></script>
   </head>
   <body>
     <div class="bg">
@@ -96,11 +100,42 @@
       </div>
 
       <br><br><br><br>
-
-      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
-      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
-      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
-      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <div style = "margin:0 auto; width:75%;">
+        <div class="itc-slider itc-slider-4" data-slider="itc-slider" data-autoplay="true" data-interval="3000" data-loop="true">
+          <div class="itc-slider__wrapper">
+            <div class="itc-slider__items">
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+              <div class="itc-slider__item">
+                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+              </div>
+            </div>
+          </div>
+          <button class="itc-slider__btn itc-slider__btn_prev"></button>
+          <button class="itc-slider__btn itc-slider__btn_next"></button>
+          <ol class="itc-slider__indicators">
+            <li class="itc-slider__indicator" data-slide-to="0"></li>
+            <li class="itc-slider__indicator" data-slide-to="1"></li>
+            <li class="itc-slider__indicator" data-slide-to="2"></li>
+            <li class="itc-slider__indicator" data-slide-to="3"></li>
+            <li class="itc-slider__indicator" data-slide-to="4"></li>
+            <li class="itc-slider__indicator" data-slide-to="5"></li>
+          </ol>
+        </div>
+      </div>
 
       <br><br><br><br><br><br><br><br>
 
