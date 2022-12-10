@@ -21,7 +21,11 @@
   <body>
     <P>Напшите описание проекта</P>
     <form action="action_make-order.php" method="post" enctype="multipart/form-data">
+    <p>Придумайте название</p>
+    <input type="text" name="title"><br><br>
+    <p>Придумайте Description</p>
     <input type="text" name="Description"><br><br>
+    <p>Придумайте Requare</p>
     <input type="text" name="Requare"><br><br>
     <p>Img</P>
     <input type="file"  name="order_avatar">
