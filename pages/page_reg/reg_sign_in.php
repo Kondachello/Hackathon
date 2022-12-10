@@ -37,7 +37,7 @@
             <br>
             <p class="reg_heading">Войти</p>
             <div align="center">
-              <input type="radio" id="Student" name="sign_in" value="Student" style="margin-left: 10px;">
+              <input type="radio" id="Student" name="sign_in" value="Student" style="margin-left: 10px">
               <label for="Student" style="font-family: 'Inter';
                                           font-style: normal;
                                           font-weight: 500;
@@ -45,7 +45,7 @@
                                           line-height: 19px;
                                           color: #FFFFFF;
                                           margin-left: 3px;">Студент</label>
-              <input type="radio" id="Company" name="sign_in" value="Company" style="margin-left: 20px;">
+              <input type="radio" id="Company" name="sign_in" value="Company" style="margin-left: 20px">
               <label for="Company" style="font-family: 'Inter';
                                           font-style: normal;
                                           font-weight: 500;
