@@ -358,7 +358,7 @@
     float: left; 
 }
 
-a.svg:after {
+a.svg:nth-child(1):after {
   content: "";
   position: absolute;
   top: 0;
@@ -366,6 +366,25 @@ a.svg:after {
   bottom: 0;
   left: 0;
 }
+
+a.svg:nth-child(2):after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+a.svg:nth-child(3):after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .animated-left{
   transform: translateY(-150%);
   animation: anileft 1s forwards;

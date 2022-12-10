@@ -14,21 +14,49 @@
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
 
   </head>
-  <body>
-    <a href="../page_order/make-order.php"> 
-      Make order
-    </a>
-    <br>
-    <a href="../page_order/all-orders.php"> 
-      All orders
-    </a>
-    
+  <body>    
     <div class="bg">
 
       <div class="header">
         <p class="logo">Sh.</p>
         <a class="link" href="#">Вход</a>
         <img class="photo" src="../../images/ava.jpg">
+      </div>
+
+      <div style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+        <div>
+          <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+        </div>
+        <div style="float: left; margin-left: 35px;">
+          <br><br><br>
+          <p class="text1">Николай Гавришок, Web-Designer</p>
+          <p class="text2">Моя цель - помочь людям достигнуть своей цели!</p>
+          <br>
+          <a href="http://vk.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://t.me" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/telegram-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://github.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/github-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+        </div>
+        <div style="float: right; margin-right: 50px; margin-top: 150px;">
+          <br><br>
+          <form action="pages/page_reg/reg_student.php" align="bottom">
+            <button class="button">Редактировать профиль</button>
+          </form>
+        </div>
       </div>
 
       <br><br><br><br>
@@ -98,8 +126,11 @@
 
             <br>
 
-            <form action="pages/page_reg/reg_company.php" align="left">
+            <form action="pages/page_reg/reg_company.php" align="left" style="float: left;">
               <button class="button">Перейти к описанию</button>
+            </form>
+            <form action="../page_order/all-orders.php" align="right">
+              <button class="button">Все заказы</button>
             </form>
           </div>
           <div class="col-md-1">
@@ -185,7 +216,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
-            <p class="text5">У меня в работе</p>
+            <p class="text5">Мои проекты</p>
 
             <br>
 
@@ -256,7 +287,7 @@
             <div class="v2"></div>
           </div>
           <div class="col-md-4">
-            <p class="text5">У меня в работе</p>
+            <p class="text5">Мое портфолио</p>
 
             <br>
 
