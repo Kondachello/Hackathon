@@ -46,21 +46,21 @@
                 <div class="itc-slider__items">
                   <div class="itc-slider__item">
 
-                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
-                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
-                    <br>
-                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <br>
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative;">
+                      <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                      <br>
+                      <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                      <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                      <br>
+                      </div>
                     </div>
-                  </div>
 
                   </div>
 
 
                   <div class="itc-slider__item">
 
-                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative;">
                     <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
                     <br>
                     <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -74,7 +74,7 @@
 
                   <div class="itc-slider__item">
 
-                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative;">
                     <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
                     <br>
                     <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
