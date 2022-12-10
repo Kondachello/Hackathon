@@ -83,7 +83,11 @@
         </div>
       </div>
 
-      <br><br><br><br>
+      <br><br>
+      <form action="pages/page_sliders/sliders.php" align="left">
+        <button class="button">Слайдеры</button>
+      </form>
+      <br><br>
 
       <div class="container-fluid">
         <div class="heading">
