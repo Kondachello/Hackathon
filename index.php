@@ -41,12 +41,12 @@
        
       $(window).scroll(function(){
         scrollTracking();
-        });
+      });
         
       $(document).ready(function(){ 
         scrollTracking();
-        });
-      </script>
+      });
+    </script>
   </head>
   <body>
     <div class="bg">
@@ -72,19 +72,27 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
-            <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
-            <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-            <form action="pages/page_reg/reg_company.php" align="left">
-              <button class="button">Предложить работу</button>
-            </form>
+            <div class="active left-active">
+              <div>
+                <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
+                <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <form action="pages/page_reg/reg_company.php" align="left">
+                  <button class="button">Предложить работу</button>
+                </form>
+              </div>
             </div>
+          </div>
           <div class="col-md-1">
           </div>
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
           <div class="col-md-4">
-            <img class="img-responsive img-rounded" src="images/jr.jpg">
+            <div class="active right-active">
+              <div>
+               <img class="img-responsive img-rounded" src="images/jr.jpg">
+             </div>
+           </div>
           </div>
           <div class="col-md-1">
           </div>
@@ -131,20 +139,10 @@
 
       <br><br><br><br>
 
-      <div class="active left-active">
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-      </div>
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
 
       <br><br><br><br><br><br><br><br>
 
