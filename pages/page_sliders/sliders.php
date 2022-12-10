@@ -12,17 +12,17 @@
   <body>
     <div class="container">
 
-      <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-loop="true">
+      <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
         <div class="itc-slider__wrapper">
           <div class="itc-slider__items">
             <div class="itc-slider__item">
-              <!-- Контент 1 слайда -->
+              
             </div>
             <div class="itc-slider__item">
-              <!-- Контент 2 слайда -->
+              
             </div>
             <div class="itc-slider__item">
-              <!-- Контент 3 слайда -->
+              <img src="../../images/1.jpg" alt = "...">
             </div>
             <div class="itc-slider__item">
               <!-- Контент 4 слайда -->
@@ -34,6 +34,13 @@
         </div>
         <button class="itc-slider__btn itc-slider__btn_prev"></button>
         <button class="itc-slider__btn itc-slider__btn_next"></button>
+        <ol class="itc-slider__indicators">
+          <li class="itc-slider__indicator" data-slide-to="0"></li>
+          <li class="itc-slider__indicator" data-slide-to="1"></li>
+          <li class="itc-slider__indicator" data-slide-to="2"></li>
+          <li class="itc-slider__indicator" data-slide-to="3"></li>
+          <li class="itc-slider__indicator" data-slide-to="4"></li>
+        </ol>
       </div>
 
       <div class="itc-slider itc-slider-2" data-slider="itc-slider" data-loop="true">
