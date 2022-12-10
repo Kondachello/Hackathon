@@ -11,7 +11,7 @@
       var observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           var entrySquare = entry.target.querySelector('.square');
-          if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+          if (typeof getCurrentAnimationP reference === 'function' && !getCurrentAnimationPreference()) {
             return;
           }
 
