@@ -7,16 +7,25 @@
     $url_reg_std = '../page_reg/reg_student.php';    
 
     if ($_POST['In'] == 'In') {
-        if (!sign_in()) {
-            header('Refresh: 1; url=' . $url_in);
-        } else {
-            if ($_SESSION['user']['0'] == 'company') {
-                header('Refresh: 1; url=' . $url_acc_cmp);
-            }
-            else if ($_SESSION['user']['0'] == 'student') {
-                header('Refresh: 1; url=' . $url_acc_std);
+        if ($_POST['std'] == 'std') {
+            if (!sign_in_std()) {
+                header('Refresh: 1; url=' . $url_in);
+            } else {
+                if ($_SESSION['user']['0'] == 'student') {
+                    header('Refresh: 1; url=' . $url_acc_std);
+                }
             }
         }
+        else if ($_POST['cmp'] == 'cmp') {
+            if (!sign_in_cmp()) {
+                header('Refresh: 1; url=' . $url_in);
+            } else {
+                if ($_SESSION['user']['0'] == 'company') {
+                    header('Refresh: 1; url=' . $url_acc_cmp);
+                }
+            }
+        }
+
     }
     else if ($_POST['reg_company'] == 'reg_company') {
         if (registration_company()) {
