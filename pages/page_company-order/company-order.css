@@ -1,0 +1,18 @@
+@import "../../index.css";
+
+.add_file {
+  width: 450px;
+  border-radius: 10px;
+  height: 60px;
+  width: 450px;
+  color: #FFFFFF;
+  font-family: 'Inter-Thin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+  background: #666666;
+  border: solid #666666;
+  border-width: 1px;
+}
