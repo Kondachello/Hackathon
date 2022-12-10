@@ -32,11 +32,12 @@
                 return false;
             }
             else {
-                $qery_to_reg = "INSERT INTO `userstudent` (`id`, `UserName`, `Email`, `Password`, `Img`, `SurnameName`, `ResumeStack`, `OrderHistory`, `Contacts`, `Tags`, `Projects`, `QrCode`) 
-                    VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$surname_name."', '', '', '', '', '', '')";
+                $qery_to_reg = "INSERT INTO `userstudent` (`id`, `UserName`, `Email`, `Password`, `Img`, `SureName`, `ResumeStack`, `OrserHistory`, `Contacts`, `Tags`, `Projects`, `QrCode`) 
+                VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$surname_name."', '', '', '', '', '', '')";
                 $return = mysqli_query($db_connection, $qery_to_reg);
                 if ($return) {
                     $_SESSION['user'] = "Вы зарегестрировались";
+                    return true;
                 }
                 else {
                     $_SESSION['user'] = "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
