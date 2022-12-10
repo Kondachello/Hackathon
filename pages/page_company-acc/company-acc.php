@@ -25,22 +25,123 @@
 
       <br><br><br><br>
 
-      <div class="container">
+      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+        <div>
+          <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+        </div>
+        <div style="float: left; margin-left: 35px;">
+          <br><br><br>
+          <p class="text1">Apple</p>
+          <p class="text2">Моя цель</p>
+          <br><br><br>
+          <object
+            type="image/svg+xml"
+            data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
+          </object>
+          <object
+            type="image/svg+xml"
+            data="../../svg/telegram-svgrepo-com.svg" width="50px">
+          </object>
+          <object
+            type="image/svg+xml"
+            data="../../svg/github-svgrepo-com.svg" width="50px">
+          </object>
+        </div>
+        <div style="float: right; margin-right: 50px; margin-top: 185px;">
+          <br><br>
+          <form action="pages/page_reg/reg_student.php" align="bottom">
+            <button class="button">Редактировать профиль</button>
+          </form>
+        </div>
+      </div>
+
+      <br><br><br><br>
+
+      <div class="container-fluid">
         <div class="tabs">
           <nav class="tabs__items">
-            <a href="#tab_01" class="tabs__item"><span>Первая вкладка</span></a>
-            <a href="#tab_02" class="tabs__item"><span>Вторая вкладка</span></a>
-            <a href="#tab_03" class="tabs__item"><span>Третья вкладка</span></a>
+            <a href="#tab_01" class="tabs__item"><span>Наши проекты</span></a>
+            <a href="#tab_02" class="tabs__item"><span>Мелкие задания</span></a>
+            <a href="#tab_03" class="tabs__item"><span>Инвестировать</span></a>
           </nav>
-          <div class="tabs__body">
-            <div id="tab_01" class="tabs__block">
-              Первая вкладка. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+          <div class="tabs__body" style="">
+            <div id="tab_01" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px; ">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
             </div>
-            <div id="tab_02" class="tabs__block">
-              Вторая вкладка. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+            <div id="tab_02" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
             </div>
-            <div id="tab_03" class="tabs__block">
-              Третья вкладка. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+            <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
             </div>
           </div>
         </div>
