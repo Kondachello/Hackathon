@@ -1,11 +1,40 @@
 <?php
     include "../../DataBase.php";
 
+    function bind_tag_order($order_id, $tag_id) {
+        $db_connect = connect();
+
+        $sql_query = "INSERT INTO `orders_tags` (`id`, `tag_id`, `order_id`) 
+            VALUES (NULL, '".$tag_id."', '".$order_id."');";
+
+        $return_query = mysqli_query($db_connect, $sql_query);        
+        if ($return_query) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    function get_tag_id($tag) {
+        $db_connect = connect();
+
+        $query_db = mysqli_query($db_connect, "SELECT * FROM `tags`");
+        while (($table_query = mysqli_fetch_assoc($query_db))) {
+            if ($table_query['tag'] == $tag) {
+                return $table_query['id'];
+            }
+        }
+        
+
+
+    }
+
     function add_order() {
         // Connect to db
         $db_connect = connect();
 
-        // 
+        // For index name file
         $id = 0;
         $query_db = mysqli_query($db_connect, "SELECT * FROM `orders`");
         while (($table_query = mysqli_fetch_assoc($query_db))) {
@@ -35,28 +64,31 @@
         $date_to = $_POST['date_to'];
         $tags = $_POST['tags'];
 
+
+        $path_ava = $url_avatars . $file_order_avatar_name;
+        $path_rar = $url_files . $file_order_rar_name;
         // load files
         // avatars
-        if (move_uploaded_file($file_order_avatar_tmp, $url_avatars . $file_order_avatar_name)) {
+        if (isset($_FILES['order_avatar']) and move_uploaded_file($file_order_avatar_tmp, $url_avatars . $file_order_avatar_name)) {
             ;
         }
         else {
-            echo "Не удалось загрузить " . $file_order_avatar_name;
-            return false;
+            // echo "Не удалось загрузить " . $file_order_avatar_name;
+            $path_ava = 'none file';
         }
         // rars
-        if (move_uploaded_file($file_order_rar_tmp, $url_files . $file_order_rar_name)) {
+        if (isset($_FILES['order_rar']) and move_uploaded_file($file_order_rar_tmp, $url_files . $file_order_rar_name)) {
             ;
         }
         else {
-            echo "Не удалось загрузить " . $file_order_rar_name;
-            return false;
+            // echo "Не удалось загрузить " . $file_order_rar_name;
+            $path_rar = 'none file';
         }
 
 
         // sql query
         $sql_query = "INSERT INTO `orders` (`id`, `Title`, `Tags`, `Description`, `Requare`, `Image`, `Files`, `Price`, `Dedline`, `Developers`) 
-            VALUES (NULL, '".$title."', '".$tags."', '".$Description."', '".$Requare."', '".$url_avatars . $file_order_avatar_name."', '".$url_files . $file_order_rar_name."', '100 - 101', '3-4', 'dfdgsdfgsdfgsdfg');";
+            VALUES (NULL, '".$title."', '".$tags."', '".$Description."', '".$Requare."', '".$path_ava."', '".$path_rar."', '100 - 101', '3-4', 'dfdgsdfgsdfgsdfg');";
 
         $return_query = mysqli_query($db_connect, $sql_query);
         if ($return_query) {

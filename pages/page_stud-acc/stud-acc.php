@@ -26,6 +26,11 @@
     <a href="../page_order/make-order.php"> 
       Make order
     </a>
+    <br>
+    <a href="../page_order/all-orders.php"> 
+      All orders
+    </a>
+    
     <div class="bg">
 
       <div class="header">
