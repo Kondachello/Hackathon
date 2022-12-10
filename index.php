@@ -50,7 +50,7 @@
           </div>
           <div class="col-md-4">
             <br>
-            <img class="img-fluid rounded" src="images/jr.jpg">
+            <img class="img-fluid rounded" src="images/prg1.jpg">
           </div>
           <div class="col-md-1">
           </div>
@@ -65,7 +65,7 @@
           </div>
           <div class="col-md-4">
             <br>
-            <img class="img-fluid rounded" src="images/jr.jpg">
+            <img class="img-fluid rounded" src="images/prg2.jpg">
           </div>
           <div class="col-md-1">
           </div>
@@ -93,7 +93,7 @@
           </div>
           <div class="col-md-4">
             <br>
-            <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
+            <p class="text1">Нужно быстро и срочно разобраться с мелко пробелмой? Обратитесь к студентма!</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <form action="pages/page_reg/reg_company.php" align="left">
               <button class="button">Предложить работу</button>
@@ -106,7 +106,7 @@
           </div>
           <div class="col-md-4">
             <br>
-            <img class="img-fluid rounded" src="images/jr.jpg">
+            <img class="img-fluid rounded" src="images/prg3.jpg">
           </div>
           <div class="col-md-1">
           </div>
