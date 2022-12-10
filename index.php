@@ -6,23 +6,17 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="pages/page_sliders/sliders.css">
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../../modules/itc-slider/itc-slider.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
   </head>
   <body>
     <div class="bg">
       <div class="header">
         <p class="logo">Sh.</p>
-        <img class="img-responsive" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
         <img class="photo" src="images/ava.jpg">
       </div>
@@ -54,7 +48,7 @@
             <div class="v1"></div>
           </div>
           <div class="col-md-4">
-            <img class="img-responsive img-rounded" src="images/jr.jpg">
+            <img class="img-fluid rounded" src="images/jr.jpg">
           </div>
           <div class="col-md-1">
           </div>
@@ -68,7 +62,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
-            <img class="img-responsive img-rounded" src="images/jr.jpg">
+            <img class="img-fluid rounded" src="images/jr.jpg">
           </div>
           <div class="col-md-1">
           </div>
@@ -105,22 +99,22 @@
           <div class="itc-slider__wrapper">
             <div class="itc-slider__items">
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="img-rounded img-responsive" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
               </div>
             </div>
           </div>
