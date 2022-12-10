@@ -129,7 +129,7 @@
             <form action="pages/page_reg/reg_company.php" align="left" style="float: left;">
               <button class="button">Перейти к описанию</button>
             </form>
-            <form action="../page_order/all-orders.php" align="right">
+            <form action="../page_all-orders/all-orders.php" align="right">
               <button class="button">Все заказы</button>
             </form>
           </div>
