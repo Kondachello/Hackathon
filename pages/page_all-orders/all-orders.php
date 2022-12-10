@@ -3,7 +3,7 @@
   <head>
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="company-order.css">
+    <link rel="stylesheet" href="all-orders.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
@@ -89,7 +89,7 @@
 
       <p class="text1" style="margin-left: 200px;">Отклики</p><br>
 
-      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
+      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 500px; margin-left: 5%">
         <div>
           <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -101,13 +101,6 @@
         </div>
         <br><br><br><br>
         <p class="text3" style="width: 90%; margin-left: 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      </div>
-
-      <div style="margin-left: 110px;">
-        <br><br>
-        <form action="../page_order/make-order.php">
-          <button class="button">Сделать отклик</button>
-        </form>
       </div>
 
       <br><br><br>
