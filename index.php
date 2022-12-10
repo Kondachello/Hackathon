@@ -22,9 +22,6 @@
         <img class="photo" src="images/ava.jpg">
       </div>
 
-
-      
-
       <br><br><br><br>  
 
       <div class="container-fluid">
@@ -39,7 +36,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animated-left">
             <br>
             <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -52,7 +49,7 @@
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animated-right">
             <br>
             <img class="img-fluid rounded" src="images/prg1.jpg">
           </div>
@@ -67,7 +64,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animated-left">
             <br>
             <img class="img-fluid rounded" src="images/prg2.jpg">
           </div>
@@ -76,7 +73,7 @@
           <div class="col-md-2">
             <div class="v1"></div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 animated-right">
             <br>
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
             <p class="text2" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -95,7 +92,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animated-left">
             <br>
             <p class="text1">Нужно быстро и срочно разобраться с мелко пробелмой? Обратитесь к студентма!</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
@@ -108,7 +105,7 @@
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 animated-right">
             <br>
             <img class="img-fluid rounded" src="images/prg3.jpg">
           </div>
@@ -120,13 +117,13 @@
       <br><br><br>
 
       <div class="container-fluid">
-        <div class="heading">
+        <div class="heading animated-up">
           <p>С нами уже работали</p>
         </div>
       </div>
 
       <br><br><br><br>
-      <div style = "margin:0 auto; width:75%;">
+      <div class = "animated-bot" style = "margin:0 auto; width:75%;">
         <div class="itc-slider itc-slider-4" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
           <div class="itc-slider__wrapper">
             <div class="itc-slider__items">

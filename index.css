@@ -386,7 +386,7 @@ a.svg:after {
 }
 .animated-up{
   transform: translateY(150%);
-  animation: aniup 1s forwards;
+  animation: aniup 3s forwards;
 }
 
 @keyframes aniup {
@@ -395,7 +395,7 @@ a.svg:after {
 }
 .animated-bot{
   transform: translateY(150%);
-  animation: anibot 1s forwards;
+  animation: anibot 3s forwards;
 }
 
 @keyframes anibot {
