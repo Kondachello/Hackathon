@@ -44,9 +44,6 @@
             </div>
           </div>
         </div>
-        <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-        </div>
       </div>
 
       <div class="container-fluid" style="background: #000000;">
