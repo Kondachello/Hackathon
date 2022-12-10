@@ -38,7 +38,7 @@
             <p class="reg_heading">Войти</p>
             <form action="reg_action.php" method="post" style="text-align:center;">
               <div align="center">
-              <input type="radio" id="Student" name="std" value="std" style="margin-left: 10px">
+              <input type="radio" id="Student" name="cmp_or_std" value="std" style="margin-left: 10px" checked>
               <label for="Student" style="font-family: 'Inter';
                                           font-style: normal;
                                           font-weight: 500;
@@ -46,7 +46,7 @@
                                           line-height: 19px;
                                           color: #FFFFFF;
                                           margin-left: 3px;">Студент</label>
-              <input type="radio" id="Company" name="cmp" value="cmp" style="margin-left: 20px">
+              <input type="radio" id="Company" name="cmp_or_std" value="cmp" style="margin-left: 20px">
               <label for="Company" style="font-family: 'Inter';
                                           font-style: normal;
                                           font-weight: 500;

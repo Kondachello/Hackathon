@@ -146,7 +146,8 @@
             if ($table_query['UserName'] == $user_name) {
                 $if_in_st = true;
                 if ($table_query['Password'] == $psw) {
-                    $_SESSION['user'] = ['company', $user_name];
+                    $_SESSION['user'] = ['company', $user_name]; 
+                    return true;
                     break;
                 } 
                 else {
@@ -159,6 +160,7 @@
 
         if (!$if_in_st) {
             $_SESSION['user'] = "Пользователь не найден";
+            return false;
         }
         else {
             return true;
