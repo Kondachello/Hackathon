@@ -3,7 +3,7 @@
   <head>
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="company-acc.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -34,18 +34,24 @@
           <p class="text1">Apple</p>
           <p class="text2">Моя цель</p>
           <br><br><br>
-          <object
-            type="image/svg+xml"
-            data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
-          </object>
-          <object
-            type="image/svg+xml"
-            data="../../svg/telegram-svgrepo-com.svg" width="50px">
-          </object>
-          <object
-            type="image/svg+xml"
-            data="../../svg/github-svgrepo-com.svg" width="50px">
-          </object>
+          <a href="http://vk.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://t.me" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/telegram-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://github.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/github-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
         </div>
         <div style="float: right; margin-right: 50px; margin-top: 185px;">
           <br><br>
