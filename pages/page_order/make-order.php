@@ -42,39 +42,40 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-6">
-            <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите название задачи</p>
-            <input class="reg_input" name="title"><br><br><br>
-            <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите описание проекта</p>
-            <textarea class="add_input"rows="10" cols="60" name="Description"></textarea><br><br>
-            <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Опишите, кто Вам нужен</p>
-            <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
-            <form action="pages/page_reg/reg_company.php" align="left">
-              <button class="button">Опубликовать проект</button>
+            <form action="action_make-order.php" method="post" enctype="multipart/form-data" align="left">
+                <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите название задачи</p>
+                <input class="reg_input" name="title"><br><br><br>
+                <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите описание проекта</p>
+                <textarea class="add_input"rows="10" cols="60" name="Description"></textarea><br><br>
+                <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Опишите, кто Вам нужен</p>
+                <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
+        
+                <button class="button">Опубликовать проект</button>
+                </div>
+                <div class="col-md-3">
+                <p class="text6" style="margin-bottom: 10px">Загрузите файлы</p>
+                <div class="add_file">
+                <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
+                </div>
+                <br>
+                <input class="add_file" type="file" name="order_avatar">
+                <br>
+                <p class="text6" style="margin-bottom: 10px">Загрузите аватарку проекта</p>
+                <div class="add_file">
+                <p style="margin-top: 15px;">Add file</p>
+                </div>
+                <br>
+                <input class="add_file" type="file" name="order_rar">
+                <br>
+                <p class="text6" style="margin-bottom: 10px">Опишите теги</p>
+                <input class="reg_input" placeholder="Введите тег" style="text-align: left;" name="tags"><br><br><br>
+                <p class="text3" style="margin-bottom: 10px">Цена (Р)</p>
+                <input class="reg_input" placeholder="От" style="width: 150px; float: left;" name="price_at">
+                <input class="reg_input" placeholder="До" style="width: 150px; float: left; margin-left: 20px;" name="price_to"><br><br><br><br>
+                <p class="text3" style="margin-bottom: 10px">Сроки (Д)</p>
+                <input class="reg_input" placeholder="От" style="width: 150px; float: left;" name="date_at">
+                <input class="reg_input" placeholder="До" style="width: 150px; float: left; margin-left: 20px;" name="date_to">
             </form>
-          </div>
-          <div class="col-md-3">
-            <p class="text6" style="margin-bottom: 10px">Загрузите файлы</p>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
-            <input class="add_file" type="file" name="order_avatar">
-            <br>
-            <p class="text6" style="margin-bottom: 10px">Загрузите аватарку проекта</p>
-            <div class="add_file">
-              <p style="margin-top: 15px;">Add file</p>
-            </div>
-            <br>
-            <input class="add_file" type="file" name="order_avatar">
-            <br>
-            <p class="text6" style="margin-bottom: 10px">Опишите теги</p>
-            <input class="reg_input" placeholder="   Введите тег" style="text-align: left;" name="tags"><br><br><br>
-            <p class="text3" style="margin-bottom: 10px">Цена (Р)</p>
-            <input class="reg_input" placeholder="От" style="width: 150px; float: left;" name="price_from">
-            <input class="reg_input" placeholder="До" style="width: 150px; float: left; margin-left: 20px;" name="price_to"><br><br><br><br>
-            <p class="text3" style="margin-bottom: 10px">Сроки (Д)</p>
-            <input class="reg_input" placeholder="От" style="width: 150px; float: left;" name="date_from">
-            <input class="reg_input" placeholder="До" style="width: 150px; float: left; margin-left: 20px;" name="date_to">
           </div>
           <div class="col-md-2">
           </div>
