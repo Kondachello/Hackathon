@@ -7,7 +7,7 @@
   <head>
     <title>Students Registration</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="make-order.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -45,20 +45,20 @@
             <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите название задачи</p>
             <input class="reg_input" type="title"><br><br>
             <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Напишите описание проекта</p>
-            <textarea rows="3" cols="60" name="Description" style="max-width: 450px; min-width: 450px; border-radius: 35px; height: 60px; width: 450px; color: #FFFFFF; font-family: 'Inter-Thin'; font-style: italic; font-weight: 700; font-size: 25px; line-height: 24px; text-align: center; background: transparent; border: solid #8901FF; border-width: 1px;"></textarea><br><br>
+            <textarea class="add_input"rows="10" cols="60" name="Description"></textarea><br><br>
             <p class="text6" style="margin-left: 40px; margin-bottom: 10px">Опишите, кто Вам нужен</p>
-            <textarea rows="3" cols="60" name="Require" style="max-width: 450px; min-width: 450px; border-radius: 35px; height: 60px; width: 450px; color: #FFFFFF; font-family: 'Inter-Thin'; font-style: italic; font-weight: 700; font-size: 25px; line-height: 24px; text-align: center; background: transparent; border: solid #8901FF; border-width: 1px;"></textarea><br><br>
+            <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
             <form action="pages/page_reg/reg_company.php" align="left">
               <button class="button">Предложить работу</button>
             </form>
           </div>
           <div class="col-md-3">
             <p class="text6" style="margin-bottom: 10px">Загрузите файлы</p>
-            <div style="width: 450px; border-radius: 10px; height: 60px; width: 450px; color: #FFFFFF; font-family: 'Inter-Thin'; font-style: normal; font-weight: 700; font-size: 25px; line-height: 24px; text-align: center; background: #666666; border: solid #666666; border-width: 1px;">
+            <div class="add_file">
               <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
             </div>
             <p class="text6" style="margin-bottom: 10px">Загрузите аватарку проекта</p>
-            <div style="width: 450px; border-radius: 10px; height: 60px; width: 450px; color: #FFFFFF; font-family: 'Inter-Thin'; font-style: normal; font-weight: 700; font-size: 25px; line-height: 24px; text-align: center; background: #666666; border: solid #666666; border-width: 1px;">
+            <div class="add_file">
               <p style="margin-top: 15px;">Add file</p>
             </div>
             <p class="text6" style="margin-bottom: 10px">Опишите теги</p>
