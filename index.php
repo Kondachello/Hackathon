@@ -36,6 +36,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
+            <br>
             <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
             <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <form action="pages/page_reg/reg_company.php" align="left">
@@ -48,6 +49,7 @@
             <div class="v1"></div>
           </div>
           <div class="col-md-4">
+            <br>
             <img class="img-fluid rounded" src="images/jr.jpg">
           </div>
           <div class="col-md-1">
@@ -62,6 +64,7 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
+            <br>
             <img class="img-fluid rounded" src="images/jr.jpg">
           </div>
           <div class="col-md-1">
@@ -70,6 +73,7 @@
             <div class="v1"></div>
           </div>
           <div class="col-md-3">
+            <br>
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
             <p class="text2" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <form action="pages/page_reg/reg_student.php" align="right">
@@ -81,11 +85,35 @@
         </div>
       </div>
 
-      <br><br>
-      <form action="pages/page_sliders/sliders.php" align="left">
-        <button class="button">Слайдеры</button>
-      </form>
-      <br><br>
+      <br><br><br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-4">
+            <br>
+            <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
+            <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <form action="pages/page_reg/reg_company.php" align="left">
+              <button class="button">Предложить работу</button>
+            </form>
+            </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-1">
+            <div class="v1"></div>
+          </div>
+          <div class="col-md-4">
+            <br>
+            <img class="img-fluid rounded" src="images/jr.jpg">
+          </div>
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
 
       <div class="container-fluid">
         <div class="heading">
