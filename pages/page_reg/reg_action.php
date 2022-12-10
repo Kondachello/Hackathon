@@ -7,7 +7,7 @@
     $url_reg_std = '../page_reg/reg_student.php';    
 
     if ($_POST['In'] == 'In') {
-        if ($_POST['std'] == 'std') {
+        if ($_POST['cmp_or_std'] == 'std') {
             if (!sign_in_std()) {
                 header('Refresh: 1; url=' . $url_in);
             } else {
@@ -16,7 +16,7 @@
                 }
             }
         }
-        else if ($_POST['cmp'] == 'cmp') {
+        else if ($_POST['cmp_or_std'] == 'cmp') {
             if (!sign_in_cmp()) {
                 header('Refresh: 1; url=' . $url_in);
             } else {
