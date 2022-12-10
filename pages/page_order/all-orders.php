@@ -15,10 +15,10 @@
     <?php
         include "func_all-orders.php";
         
-        get_all_orders();
-        echo_order(0);
-        echo_order(1);
-        echo_order(2);
+        $tags = 'css; html; php;';
+
+        $r = parser_tags($tags);
+        tag_search($r);
     ?>
   </body>
 </html>
