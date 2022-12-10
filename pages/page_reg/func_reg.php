@@ -98,16 +98,15 @@
         return true;
     }
 
-    function sign_in() {
+    function sign_in_std() {
         // connect to DB
         $db_connection = connect();
-
+        
         // get info from form
         $user_name = $_POST['user_name'];
         $psw = md5($_POST['psw']);
 
         $query_db_users_student = mysqli_query($db_connection, "SELECT * FROM `userstudent`");
-        $query_db_users_company = mysqli_query($db_connection, "SELECT * FROM `usercompany`");
 
         $if_in_st = false;
         while (($table_query = mysqli_fetch_assoc($query_db_users_student))) {
@@ -124,31 +123,44 @@
                 }
             }
         }
-
+        
         if (!$if_in_st) {
-            while (($table_query = mysqli_fetch_assoc($query_db_users_company))) {
-                if ($table_query['UserName'] == $user_name) {
-                    $if_in_st = true;
-                    if ($table_query['Password'] == $psw) {
-                        $_SESSION['user'] = ['company', $user_name];
-                        break;
-                    } 
-                    else {
-                        $_SESSION['user'] = 'Неверный пароль';
-                        $if_in_st = false;
-                        return false;
-                    }
+            $_SESSION['user'] = "Пользователь не найден";
+        }
+        else {
+            return true;
+        }
+    }
+
+    function sign_in_cmp() {
+        // connect to DB
+        $db_connection = connect();
+
+        // get info from form
+        $user_name = $_POST['user_name'];
+        $psw = md5($_POST['psw']);
+
+        $query_db_users_company = mysqli_query($db_connection, "SELECT * FROM `usercompany`");
+
+        while (($table_query = mysqli_fetch_assoc($query_db_users_company))) {
+            if ($table_query['UserName'] == $user_name) {
+                $if_in_st = true;
+                if ($table_query['Password'] == $psw) {
+                    $_SESSION['user'] = ['company', $user_name];
+                    break;
+                } 
+                else {
+                    $_SESSION['user'] = 'Неверный пароль';
+                    $if_in_st = false;
+                    return false;
                 }
             }
         }
 
         if (!$if_in_st) {
             $_SESSION['user'] = "Пользователь не найден";
-            //echo '<a href="../page_reg/reg_student.php" class="link">Регистрация студенту</a><br>';
-            //echo '<a href="../page_reg/reg_company.php" class="link">Регистрация компании</a><br>';
         }
         else {
-            // echo "Привет" . $user_name;
             return true;
         }
     }
