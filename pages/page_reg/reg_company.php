@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -38,8 +42,24 @@
               <input class="reg_input" placeholder="Введите имя пользователя" name="user_name"><br><br><br>
               <input class="reg_input" placeholder="Введите Email" name="email"><br><br><br>
               <input class="reg_input" type="password" placeholder="Введите пароль" name="psw"><br><br><br>
-              <input class="reg_input" type="password" placeholder="Повторите пароль" name="psw-repeat"><br><br><br>
-
+              <input class="reg_input" type="password" placeholder="Повторите пароль" name="psw-repeat">
+              <p style="color: red; margin-left: -270px; margin-bottom: 0; margin-top: 7px; font-weight: 100;">
+              <?php
+                
+                if ($_SESSION['user'] == "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже") {
+                  echo "Не удалось зарегестрироваться. Что-то пошло не так. Попробуйте позже";
+                }
+                else if ($_SESSION['user'] == "Пароли не совпадают") {
+                  echo "Пароли не совпадают";
+                }
+                else if ($_SESSION['user'] == "Пользователь уже существует Придумайте другой username") {
+                  echo "Пользователь уже существует";
+                }
+                else {
+                  echo "<br>";
+                }
+              ?>
+              </p>
               <form action="reg_action.php" method="post" align="right">
                 <button class="button" name="reg_company" value="reg_company">Зарегистрироваться</button>
               </form><br><br>

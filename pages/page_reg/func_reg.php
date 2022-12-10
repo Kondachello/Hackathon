@@ -54,6 +54,8 @@
         // connect to DB
         $db_connection = connect();
 
+        $_SESSION['user'] = '';
+
         // Get info from input form
         $title = $_POST['title'];
         $user_name = $_POST['user_name'];
