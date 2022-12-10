@@ -41,7 +41,7 @@
             <p class="text5">У меня в работе</p>
 
             <br>
-            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
+            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="3030" data-loop="true">
               <div class="itc-slider__wrapper">
                 <div class="itc-slider__items">
                   <div class="itc-slider__item">
@@ -60,7 +60,7 @@
 
                   <div class="itc-slider__item">
 
-                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
                     <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
                     <br>
                     <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -74,7 +74,7 @@
 
                   <div class="itc-slider__item">
 
-                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
                     <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
                     <br>
                     <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -112,13 +112,59 @@
 
             <br>
 
-            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
-              <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
-              <br>
-              <p class="text6" style="margin-left: 10%; width: 80%; ">Студенты ИТМО</p>
-              <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-              <br>
+            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2123" data-loop="true">
+              <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                  </div>
+
+                  </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                    
+                  </div>
+
+                  </div>
+                </div>
               </div>
+              <button class="itc-slider__btn itc-slider__btn_prev"></button>
+              <button class="itc-slider__btn itc-slider__btn_next"></button>
+              <ol class="itc-slider__indicators">
+                <li class="itc-slider__indicator" data-slide-to="0"></li>
+                <li class="itc-slider__indicator" data-slide-to="1"></li>
+                <li class="itc-slider__indicator" data-slide-to="2"></li>
+              </ol>
             </div>
 
             <br>
@@ -143,13 +189,59 @@
 
             <br>
 
-            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
-              <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
-              <br>
-              <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-              <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-              <br>
+            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="3546" data-loop="true">
+              <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                  </div>
+
+                  </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                    
+                  </div>
+
+                  </div>
+                </div>
               </div>
+              <button class="itc-slider__btn itc-slider__btn_prev"></button>
+              <button class="itc-slider__btn itc-slider__btn_next"></button>
+              <ol class="itc-slider__indicators">
+                <li class="itc-slider__indicator" data-slide-to="0"></li>
+                <li class="itc-slider__indicator" data-slide-to="1"></li>
+                <li class="itc-slider__indicator" data-slide-to="2"></li>
+              </ol>
             </div>
 
             <br>
@@ -168,13 +260,59 @@
 
             <br>
 
-            <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:50px;">
-              <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
-              <br>
-              <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-              <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-              <br>
+            <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="3647" data-loop="true">
+              <div class="itc-slider__wrapper">
+                <div class="itc-slider__items">
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/1.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                  </div>
+
+                  </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/2.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+
+                  </div>
+                </div>
+
+
+                  <div class="itc-slider__item">
+
+                    <div style="background: url(../../images/3.jpg); background-size: cover; height: 600px; border-radius: 20px; position:relative; padding-bottom:;">
+                    <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px;">
+                    <br>
+                    <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                    <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <br>
+                    </div>
+                    
+                  </div>
+
+                  </div>
+                </div>
               </div>
+              <button class="itc-slider__btn itc-slider__btn_prev"></button>
+              <button class="itc-slider__btn itc-slider__btn_next"></button>
+              <ol class="itc-slider__indicators">
+                <li class="itc-slider__indicator" data-slide-to="0"></li>
+                <li class="itc-slider__indicator" data-slide-to="1"></li>
+                <li class="itc-slider__indicator" data-slide-to="2"></li>
+              </ol>
             </div>
 
             <br>
