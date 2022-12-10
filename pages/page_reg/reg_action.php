@@ -1,7 +1,7 @@
 <?php
     include "func_reg.php";
     $url_acc_std = '../page_stud-acc/stud-acc.php';
-    $url_acc_cmp = '../page_stud-acc/company-acc.php';
+    $url_acc_cmp = '../page_company-acc/company-acc.php';
     $url_in = '../page_reg/reg_sign_in.php';    
     $url_reg_cmp = '../page_reg/reg_company.php';    
     $url_reg_std = '../page_reg/reg_student.php';    
