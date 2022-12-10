@@ -64,7 +64,7 @@
       <br><br><br><br>
 
       <p class="text5" style="margin-left: 200px;">Строим самолет</p><br>
-      <div class="container" style="background: url(../../images/bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 80%; height: 300px; margin-left: 10%">
+      <div class="container" style="background: url(../../images/bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 80%; height: 300px; margin-left: 10%">
         <div class="row">
           <div class="col-md-7">
             <p class="text1">Описание проекта</p>
@@ -90,6 +90,24 @@
           <div class="col-md-1">
           </div>
         </div>
+      </div>
+
+      <br><br><br>
+
+      <p class="text1" style="margin-left: 200px;">Отклики</p><br>
+
+      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 500px; margin-left: 5%">
+        <div>
+          <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+        </div>
+        <div style="margin-left: 35px;">
+          <br><br><br>
+          <p class="text1">Николай Гавришок, Web designer</p>
+          <p class="text2">Моя цель - помочь людям достигнуть своей цели !</p>
+          <br><br><br>
+        </div>
+        <br><br><br><br>
+        <p class="text3" style="width: 90%; margin-left: 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
       </div>
 
       <br><br><br>

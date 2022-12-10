@@ -25,7 +25,7 @@
 
       <br><br><br><br>
 
-      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
