@@ -13,40 +13,6 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      var block_show = false;
- 
-      function scrollTracking(){
-        if (block_show) {
-          return false;
-        }
-       
-        var wt = $(window).scrollTop();
-        var wh = $(window).height();
-        var et = $('.active').offset().top;
-        var eh = $('.active').outerHeight();
-        var dh = $(document).height();   
-       
-        if (wt + wh >= et || wh + wt == dh || eh + et < wh){
-          block_show = true;
-          
-          // Код анимации
-          $('.active div:eq(0)').show('slow', function(){
-            $(this).next().show('slow', arguments.callee);
-          });
-        }
-      }
-       
-      $(window).scroll(function(){
-        scrollTracking();
-        });
-        
-      $(document).ready(function(){ 
-        scrollTracking();
-        });
-      </script>
   </head>
   <body>
     <div class="bg">
@@ -131,20 +97,10 @@
 
       <br><br><br><br>
 
-      <div class="active left-active">
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-        <div>
-          <img class="img-rounded" src="images/jr.jpg" width="100%" alt="" hspace="4.7%">
-        </div>
-      </div>
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
+      <img class="img-rounded" src="images/jr.jpg" width="15%" alt="" hspace="4.7%">
 
       <br><br><br><br><br><br><br><br>
 
