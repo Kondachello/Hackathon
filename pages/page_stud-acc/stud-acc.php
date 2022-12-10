@@ -23,6 +23,9 @@
 
   </head>
   <body>
+    <a href="../page_order/make-order.php"> 
+      Make order
+    </a>
     <div class="bg">
 
       <div class="header">

@@ -65,8 +65,9 @@
             <a href="#tab_03" class="tabs__item"><span>Инвестировать</span></a>
           </nav>
           <div class="tabs__body" style="">
-            <div id="tab_01" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px; ">
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+            <div id="tab_01" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px; ">
+              <br><br><br><br>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -74,7 +75,7 @@
                   <br>
                 </div>
               </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -82,33 +83,7 @@
                   <br>
                 </div>
               </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
-                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
-                  <br>
-                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                  <br>
-                </div>
-              </div>
-            </div>
-            <div id="tab_02" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px;">
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
-                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
-                  <br>
-                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                  <br>
-                </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
-                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
-                  <br>
-                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
-                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                  <br>
-                </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -117,8 +92,9 @@
                 </div>
               </div>
             </div>
-            <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 500px;">
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+            <div id="tab_02" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
+              <br><br><br><br>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -126,7 +102,7 @@
                   <br>
                 </div>
               </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -134,7 +110,34 @@
                   <br>
                 </div>
               </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
+              <br><br><br><br>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+                <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
+                  <br>
+                  <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
+                  <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                  <br>
+                </div>
+              </div>
+              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
