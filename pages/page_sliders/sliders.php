@@ -4,86 +4,59 @@
     <title>Sliders</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="sliders.css">
-    <link rel="stylesheet" href="../../modules/itc-slider/itc-slider.css">
-<!-- JavaScript -->
-    <script src="../../modules/itc-slider/itc-slider.js" defer></script>
-
+    <script type="text/javascript">
+      $(window).scroll(function(){
+        var wt = $(window).scrollTop();
+        var wh = $(window).height();
+        var et = $('элемент').offset().top;
+        var eh = $('элемент').outerHeight();
+        var dh = $(document).height();   
+        if (wt + wh >= et || wh + wt == dh || eh + et < wh){
+          console.log('Элемент показан');
+        }
+      });
+      }
+    </script>
   </head>
   <body>
-    <div class="container-slides">
-
-      <div class="itc-slider itc-slider-1" data-slider="itc-slider" data-autoplay="true" data-interval="2000" data-loop="true">
-        <div class="itc-slider__wrapper">
-          <div class="itc-slider__items">
-            <div class="itc-slider__item">
-              
-            </div>
-            <div class="itc-slider__item">
-              <form action="pages/page_reg/reg_company.php" align="left">
-                <button class="button">Предложить работу</button>
-              </form>
-
-            </div>
-            <div class="itc-slider__item">
-              <form action="pages/page_reg/reg_company.php" align="left">
-                <button class="button">Предложить работу</button>
-              </form>
-            </div>
-            <div class="itc-slider__item">
-              <form action="pages/page_reg/reg_company.php" align="left">
-                <button class="button">Предложить работу</button>
-              </form>
-
-
-            </div>
-            <div class="itc-slider__item">
-              <form action="pages/page_reg/reg_company.php" align="left">
-                <button class="button">Предложить работу</button>
-              </form>
-
-            </div>
-          </div>
-        </div>
-        <button class="itc-slider__btn itc-slider__btn_prev"></button>
-        <button class="itc-slider__btn itc-slider__btn_next"></button>
-        <ol class="itc-slider__indicators">
-          <li class="itc-slider__indicator" data-slide-to="0"></li>
-          <li class="itc-slider__indicator" data-slide-to="1"></li>
-          <li class="itc-slider__indicator" data-slide-to="2"></li>
-          <li class="itc-slider__indicator" data-slide-to="3"></li>
-          <li class="itc-slider__indicator" data-slide-to="4"></li>
-        </ol>
-      </div>
-
-      <div class="itc-slider itc-slider-2" data-slider="itc-slider" data-loop="true">
-        <div class="itc-slider__wrapper">
-          <div class="itc-slider__items">
-            <div class="itc-slider__item">
-              <!-- Контент 1 слайда -->
-              1
-            </div>
-            <div class="itc-slider__item">
-              <!-- Контент 2 слайда -->
-              2
-            </div>
-            <div class="itc-slider__item">
-              <!-- Контент 3 слайда -->
-              3
-            </div>
-            <div class="itc-slider__item">
-              <!-- Контент 4 слайда -->
-              4
-            </div>
-            <div class="itc-slider__item">
-              <!-- Контент 5 слайда -->
-              5
-            </div>
-          </div>
-        </div>
-        <button class="itc-slider__btn itc-slider__btn_prev"></button>
-        <button class="itc-slider__btn itc-slider__btn_next"></button>
-      </div>
-
+    <div class="active">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
     </div>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      var block_show = false;
+ 
+      function scrollTracking(){
+        if (block_show) {
+          return false;
+        }
+       
+        var wt = $(window).scrollTop();
+        var wh = $(window).height();
+        var et = $('.active').offset().top;
+        var eh = $('.active').outerHeight();
+        var dh = $(document).height();   
+       
+        if (wt + wh >= et || wh + wt == dh || eh + et < wh){
+          block_show = true;
+          
+          // Код анимации
+          $('.active div:eq(0)').show('slow', function(){
+            $(this).next().show('slow', arguments.callee);
+          });
+        }
+      }
+       
+      $(window).scroll(function(){
+        scrollTracking();
+      });
+        
+      $(document).ready(function(){ 
+        scrollTracking();
+      });
+    </script>
   </body>
 </html>

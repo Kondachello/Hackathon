@@ -343,3 +343,20 @@
   }
 }
 
+.active {
+  margin: 0 -1% 15px;
+  overflow: hidden;
+}
+.active div {
+  display: none;      
+  width: 400px;    
+  margin: 14px;    
+  padding: 40px 0;    
+}
+.right-active div {
+    float: right; 
+}
+.left-active div {
+    float: left; 
+}
+
