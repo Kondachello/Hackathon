@@ -13,40 +13,6 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      var block_show = false;
- 
-      function scrollTracking(){
-        if (block_show) {
-          return false;
-        }
-       
-        var wt = $(window).scrollTop();
-        var wh = $(window).height();
-        var et = $('.active').offset().top;
-        var eh = $('.active').outerHeight();
-        var dh = $(document).height();   
-       
-        if (wt + wh >= et || wh + wt == dh || eh + et < wh){
-          block_show = true;
-          
-          // Код анимации
-          $('.active div:eq(0)').show('slow', function(){
-            $(this).next().show('slow', arguments.callee);
-          });
-        }
-      }
-       
-      $(window).scroll(function(){
-        scrollTracking();
-      });
-        
-      $(document).ready(function(){ 
-        scrollTracking();
-      });
-    </script>
   </head>
   <body>
     <div class="bg">
@@ -72,27 +38,19 @@
           <div class="col-md-1">
           </div>
           <div class="col-md-4">
-            <div class="active left-active">
-              <div>
-                <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
-                <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                <form action="pages/page_reg/reg_company.php" align="left">
-                  <button class="button">Предложить работу</button>
-                </form>
-              </div>
+            <p class="text1">Помогите студентам ИТМО получить настоящий опыт работы</p>
+            <p class="text2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <form action="pages/page_reg/reg_company.php" align="left">
+              <button class="button">Предложить работу</button>
+            </form>
             </div>
-          </div>
           <div class="col-md-1">
           </div>
           <div class="col-md-1">
             <div class="v1"></div>
           </div>
           <div class="col-md-4">
-            <div class="active right-active">
-              <div>
-               <img class="img-responsive img-rounded" src="images/jr.jpg">
-             </div>
-           </div>
+            <img class="img-responsive img-rounded" src="images/jr.jpg">
           </div>
           <div class="col-md-1">
           </div>
