@@ -25,10 +25,6 @@
 }
 
 .link {
-  position: absolute;
-  top: 2%;
-  right: 120px;
-  width: 5%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -68,18 +64,7 @@
   text-decoration: none;
 }
 
-.photo {
-  position: absolute;
-  top: 1%;
-  right: 10px;
-  width: 60px;
-  height: 60px;
-}
-
 .logo {
-  position: absolute;
-  top: 1%;
-  left: 2%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;

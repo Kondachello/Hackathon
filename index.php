@@ -4,7 +4,6 @@
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="pages/page_sliders/sliders.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -14,11 +13,20 @@
   </head>
   <body>
     <div class="bg">
-      <div class="header">
-        <p class="logo">Sh.</p>
-        <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
-        <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
-        <img class="photo" src="images/ava.jpg">
+      <div class="container-fluid" style="background: #000000;">
+        <div class="row">
+          <div class="col-md-1">
+            <p class="logo">Sh.</p>
+          </div>
+          <div class="col-md-9">
+          </div>
+          <div class="col-md-1">
+            <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
+          </div>
+          <div class="col-md-1">
+            <img class="photo" src="images/ava.jpg">
+          </div>
+        </div>
       </div>
 
       <br><br><br><br>  
