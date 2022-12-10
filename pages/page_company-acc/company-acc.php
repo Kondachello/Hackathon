@@ -3,7 +3,7 @@
   <head>
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="company-acc.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,7 +25,7 @@
 
       <br><br><br><br>
 
-      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -34,18 +34,24 @@
           <p class="text1">Apple</p>
           <p class="text2">Моя цель</p>
           <br><br><br>
-          <object
-            type="image/svg+xml"
-            data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
-          </object>
-          <object
-            type="image/svg+xml"
-            data="../../svg/telegram-svgrepo-com.svg" width="50px">
-          </object>
-          <object
-            type="image/svg+xml"
-            data="../../svg/github-svgrepo-com.svg" width="50px">
-          </object>
+          <a href="http://vk.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://t.me" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/telegram-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
+          <a href="http://github.com" class="svg">
+            <object
+              type="image/svg+xml"
+              data="../../svg/github-svgrepo-com.svg" width="50px">
+            </object>
+          </a>
         </div>
         <div style="float: right; margin-right: 50px; margin-top: 185px;">
           <br><br>
@@ -67,84 +73,84 @@
           <div class="tabs__body" style="">
             <div id="tab_01" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px; ">
               <br><br><br><br>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
+              </a>
             </div>
             <div id="tab_02" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
               <br><br><br><br>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
+              </a>
             </div>
             <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
               <br><br><br><br>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
-              <div style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
+              </a>
+              <a href="#" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; left: 0; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
                   <p class="text7" style="margin-left: 10%; width: 80%; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                   <br>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
