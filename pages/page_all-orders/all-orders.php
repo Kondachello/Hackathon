@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="all-orders.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="../../scroll.js"></script>
   </head>
   <body>
     <div class="bg">
@@ -18,18 +19,18 @@
 
       <br><br><br><br>
 
-      <p class="text5" style="text-align: center;">Строим самолет</p><br>
+      <p class="text5 preanim-bot" style="text-align: center;">Строим самолет</p><br>
       <div class="container-fluid" style="border-radius: 20px; position:relative; height: 300px">
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 preanim-left">
             <p class="text1" style="margin-bottom: 10px; text-align: left">Искать по тегам</p>
             <input class="reg_input" placeholder="Введите тег" style="text-align: left; width: 100%;" name="tags"><br><br><br>
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 preanim-up">
             <p class="text1" style="margin-bottom: 10px; text-align: center">Фильтры</p>
             <p class="text3" style="margin-bottom: 10px; margin-left: 10px;">Цена (Р)</p>
             <input class="reg_input" placeholder="От" style="width: 50%; float: left;" name="price_at" align="left">
@@ -40,7 +41,7 @@
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 preanim-right">
             <img class="image-fluid rounded" width="400px" src="../../images/me.jpg">
           </div>
         </div>
@@ -48,9 +49,9 @@
 
       <br><br><br>
 
-      <p class="text5" style="margin-left: 100px;">Результаты поиска</p><br>
+      <p class="text5 preanim-left" style="margin-left: 100px;">Результаты поиска</p><br>
 
-      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
+      <div class="preanim-left"style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
         <div>
           <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
