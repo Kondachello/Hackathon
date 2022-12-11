@@ -57,3 +57,4 @@ def estim_stud(username):
 		mydb.commit()
 		print('hello')
 	f.close()
+print('sex')
