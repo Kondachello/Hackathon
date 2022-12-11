@@ -19,7 +19,7 @@
 
 <!-- JavaScript -->
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
-
+    <script src="../../scroll.js"></script>
   </head>
   <body>    
     <div class="bg">
@@ -41,7 +41,7 @@
 
       <br><br><br>
 
-      <div style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div class="preanim-up animated-up" style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="<?php echo get_ava_url($_SESSION['user']['name']); ?>" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -77,7 +77,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 preanim-left">
           <form action="action_stud-edit.php" method="post" enctype="multipart/form-data">
             <p class="text5">Имя, Фамилия</p>
             <input class="reg_input" name="NamSurName" placeholder="Иванов Иван" style="width: 80%"><br><br>
@@ -86,7 +86,7 @@
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 preanim-bot">
             <p class="text5" style="text-align:center">Изменить аватар</p>
             <p class="text6" style="margin-bottom: 10px; text-align:center">Загрузите файлы</p>
             <div class="add_file">
@@ -96,8 +96,8 @@
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-3">
-            <pre class="text5">     Редактировать контакты</pre>
+          <div class="col-md-3 preanim-right">
+            <pre class="text5">  Редактировать контакты</pre>
             <object
               type="image/svg+xml"
               data="../../svg/vk-v2-svgrepo-com.svg" width="50px" style="float: left;">
@@ -121,12 +121,12 @@
 
       <br><br><br><br>
 
-      <p class="text5" style="margin-left: 150px">Редактировать резюме</p>
+      <p class="text5 preanim-left" style="margin-left: 150px">Редактировать резюме</p>
 
-      <textarea class="add_input" rows="5" cols="60" name="Resume"></textarea><br><br>
+      <textarea class="add_input preanim-left" rows="5" cols="60" name="Resume"></textarea><br><br>
 
       <span  style="margin-left: 150px;">
-        <button class="button">Применить изменения</button>
+        <button class="button preanim-left">Применить изменения</button>
       </span>
       </form>
 

@@ -38,7 +38,7 @@
                 <input class="reg_input" placeholder="   Введите тег" style="text-align: left; width: 100%;" name="tags"><br><br><br>
                 <div>
                   <br><br>
-                <button class="button">Искать</button>
+                <button class="button" name="srch" value="1" >Искать</button>
               </form>
             </div>
           </div>
@@ -77,9 +77,12 @@
                     </div>
                     <div style="margin-left: 35px;">
                       <br><br><br>
-                      <a href="../page_company-order/company-order.php" style="text-decoration: none;">
-                        <pre class="text1">       '.$order_i['Title'].'</pre>
-                      </a>
+                      <form method="post" action="action_all-orders.php" id="form1">
+                      
+                      <button name="srch" value="'.$order_i['id'].'" href="../page_company-order/company-order.php" style="text-decoration: none;">
+                      <pre class="text1">       '.$order_i['Title'].'</pre>
+                      </button>
+                      </form>
                       <pre class="text2">        Моя цель - помочь людям достигнуть своей цели !</pre>
                       <br><br><br>
                     </div>
