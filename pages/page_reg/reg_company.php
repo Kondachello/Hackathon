@@ -10,17 +10,19 @@
     <link rel="stylesheet" href="../../index.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="../../scroll.js"></script>
   </head>
   <body>
     <div class="bg">
 
       <div class="header">
         <p class="logo">Sh.</p>
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
       </div>
 
       <br><br><br>
 
-      <div class="container-fluid">
+      <div class="container-fluid preanim-left">
         <div class="row">
           <div class="col-md-4">
           </div>
