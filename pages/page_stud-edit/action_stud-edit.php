@@ -34,6 +34,10 @@
     $db_connect = connect();
 
     mysqli_query($db_connect, $sql);
+
+
+    $url = '../page_stud-acc/stud-acc.php';
+    header('Refresh: 1; url=' . $url);
     
 
 
