@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="company-acc.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="../../scroll.js"></script>
   </head>
   <body>
     <div class="bg">
       <div class="header">
         <p class="logo">Sh.</p>
-        <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
         <img class="photo" src="../../images/ava.jpg">
       </div>
 
       <br><br><br><br>
 
-      <div style="background: url(../../images/cmp-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div class="preanim-left" style="background: url(../../images/cmp-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="../../images/apple.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -66,7 +67,7 @@
           <div class="tabs__body" style="">
             <div id="tab_01" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px; ">
               <br><br><br><br>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a class="preanim-left" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -74,7 +75,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-bot" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -82,7 +83,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-right" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -93,7 +94,7 @@
             </div>
             <div id="tab_02" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
               <br><br><br><br>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a class="preanim-left" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -101,7 +102,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-bot" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -109,7 +110,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-right" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -126,7 +127,7 @@
             </div>
             <div id="tab_03" class="tabs__block" style="border-radius: 0 0 10px 10px; height: 800px;">
               <br><br><br><br>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
+              <a class="preanim-left" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 6%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -134,7 +135,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-bot" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
@@ -142,7 +143,7 @@
                   <br>
                 </div>
               </a>
-              <a href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
+              <a class="preanim-right" href="../page_company-order/company-order.php" style="background: url(../../images/1.jpg); background-size: cover; background-repeat: no-repeat; height: 80%; border-radius: 20px; position:relative; width: 20%; float: left; margin-left: 14%;">
                 <div style="background: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0px; border-radius: 0 0 20px 20px; width: 100%">
                   <br>
                   <p class="text6" style="margin-left: 10%; width: 80%; ">Запрогать сайт</p>
