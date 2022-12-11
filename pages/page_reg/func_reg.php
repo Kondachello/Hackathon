@@ -113,7 +113,7 @@
             if ($table_query['UserName'] == $user_name) {
                 $if_in_st = true;
                 if ($table_query['Password'] == $psw) {
-                    $_SESSION['user'] = ['student', $user_name];
+                    $_SESSION['user'] = ['type' => 'student', 'name' => $user_name];
                     break;
                 } 
                 else {
@@ -146,7 +146,7 @@
             if ($table_query['UserName'] == $user_name) {
                 $if_in_st = true;
                 if ($table_query['Password'] == $psw) {
-                    $_SESSION['user'] = ['company', $user_name]; 
+                    $_SESSION['user'] = ['type' => 'company', 'name' => $user_name];
                     return true;
                     break;
                 } 
