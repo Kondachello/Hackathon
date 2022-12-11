@@ -81,7 +81,7 @@
 
         for ($i = 0; $i < count($cmp_acc); $i++) {
             if ($cmp_acc[$i]['id'] == $id) {
-                return $cmp_acc[$i]['Title'];
+                return $cmp_acc[$i]['SureName'];
             }
         }
 
