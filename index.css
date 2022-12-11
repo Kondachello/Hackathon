@@ -15,6 +15,7 @@
 
 .bg {
   background: url(images/bg.jpg);
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -405,13 +406,14 @@ a.svg:after {
   100% {transform: translateY(0);}
 }
 .preanim-right{
+  transform: translateY(-15000%);
 }
 .preanim-left{
-  
+  transform: translateY(-15000%);
 }
 .preanim-up{
-  
+  transform: translateY(-15000%);
 }
 .preanim-bot{
-  
+  transform: translateY(-15000%);
 }

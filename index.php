@@ -13,8 +13,6 @@
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-
     <script>
       function reveal1() {
         var right = document.querySelectorAll(".preanim-right");
@@ -22,7 +20,7 @@
         for (var i = 0; i < right.length; i++) {
           var windowHeight = window.innerHeight;
           var elementTop = right[i].getBoundingClientRect().top;
-          var elementVisible = 10;
+          var elementVisible = 100;
 
           if (elementTop < windowHeight - elementVisible) {
             right[i].classList.add("animated-right");
@@ -37,7 +35,7 @@
         for (var i = 0; i < left.length; i++) {
           var windowHeight = window.innerHeight;
           var elementTop = left[i].getBoundingClientRect().top;
-          var elementVisible = 10;
+          var elementVisible = 100;
 
           if (elementTop < windowHeight - elementVisible) {
             left[i].classList.add("animated-left");
@@ -52,7 +50,7 @@
         for (var i = 0; i < up.length; i++) {
           var windowHeight = window.innerHeight;
           var elementTop = up[i].getBoundingClientRect().top;
-          var elementVisible = 10;
+          var elementVisible = 100;
 
           if (elementTop < windowHeight - elementVisible) {
             up[i].classList.add("animated-up");
@@ -145,7 +143,7 @@
   </head>
   <body>
     <div class="bg">
-      <div class="header preanim-up">
+      <div class="header">
         <p class="logo">Sh.</p>
         <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
