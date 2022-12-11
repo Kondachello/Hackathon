@@ -66,7 +66,7 @@
         </div>
         <div style="float: right; margin-right: 50px; margin-top: 150px;">
           <br><br>
-          <form action="pages/page_reg/reg_student.php" align="bottom">
+          <form action="../page_company-edit/company-edit.php" align="bottom">
             <button class="button">Редактировать профиль</button>
           </form>
         </div>

@@ -3,7 +3,7 @@
   <head>
     <title>Students help</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="stud-edit.css">
+    <link rel="stylesheet" href="company-edit.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -22,14 +22,14 @@
         <img class="photo" src="../../images/ava.jpg">
       </div>
 
-      <div style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div style="background: url(../../images/cmp-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
-          <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+          <img src="../../images/apple.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
         <div style="float: left; margin-left: 35px;">
           <br><br><br>
-          <p class="text1">Николай Гавришок, Web-Designer</p>
-          <p class="text2">Моя цель - помочь людям достигнуть своей цели!</p>
+          <p class="text1">Apple</p>
+          <p class="text2">Наша цель</p>
           <br>
           <a href="http://vk.com" class="svg">
             <object
