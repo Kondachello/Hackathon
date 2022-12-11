@@ -81,7 +81,7 @@
             <br>
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
             <p class="text2" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-            <form action="pages/page_reg/reg_student.php" align="right">
+            <form action="pages/page_reg/reg_company.php" align="right">
               <button class="button">Инвестировать</button>
             </form>
           </div>
