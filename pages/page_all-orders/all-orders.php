@@ -57,8 +57,8 @@
         </div>
         <div style="margin-left: 35px;">
           <br><br><br>
-          <p class="text1">Николай Гавришок, Web designer</p>
-          <p class="text2">Моя цель - помочь людям достигнуть своей цели !</p>
+          <pre class="text1">    Николай Гавришок, Web designer</pre>
+          <pre class="text2">        Моя цель - помочь людям достигнуть своей цели !</pre>
           <br><br><br>
         </div>
         <br><br><br><br>
