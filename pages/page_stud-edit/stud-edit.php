@@ -8,9 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../../modules/itc-slider/itc-slider.css">
-
-<!-- JavaScript -->
-    <script src="../../modules/itc-slider/itc-slider.js" defer></script>
+    <script src="../../scroll.js"></script>
 
   </head>
   <body>    
@@ -19,10 +17,11 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <a class="link" href="#">Вход</a>
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <img class="photo" src="../../images/ava.jpg">
       </div>
 
-      <div style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div class = "preanim-up animated-up" style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -64,7 +63,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 preanim-left">
             <p class="text5">Имя, Фамилия</p>
             <input class="reg_input" name="" placeholder="Иванов Иван" style="width: 80%"><br><br>
             <p class="text5">Девиз</p>
@@ -72,7 +71,7 @@
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 preanim-bot">
             <p class="text5" style="text-align:center">Изменить аватар</p>
             <p class="text6" style="margin-bottom: 10px; text-align:center">Загрузите файлы</p>
             <div class="add_file">
@@ -81,8 +80,8 @@
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-3">
-            <pre class="text5">     Редактировать контакты</pre>
+          <div class="col-md-3 preanim-right">
+            <pre class="text5">  Редактировать контакты</pre>
             <object
               type="image/svg+xml"
               data="../../svg/vk-v2-svgrepo-com.svg" width="50px" style="float: left;">
@@ -101,18 +100,19 @@
           </div>
           <div class="col-md-1">
           </div>
+          <div class="col-md-3 preanim-left">
+            <p class="text5" style="margin-left: 150px">Редактировать резюме</p>
+
+            <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
+
+            <form action="../page_all-orders/all-orders.php" style="margin-left: 150px;">
+              <button class="button">Применить изменения</button>
+            </form>
+          </div>
         </div>
       </div>
 
       <br><br><br><br>
-
-      <p class="text5" style="margin-left: 150px">Редактировать резюме</p>
-
-      <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
-
-      <form action="../page_all-orders/all-orders.php" style="margin-left: 150px;">
-        <button class="button">Применить изменения</button>
-      </form>
 
       <br><br><br><br>
 
