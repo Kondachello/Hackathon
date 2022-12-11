@@ -11,7 +11,7 @@
             if (!sign_in_std()) {
                 header('Refresh: 1; url=' . $url_in);
             } else {
-                if ($_SESSION['user']['0'] == 'student') {
+                if ($_SESSION['user']['type'] == 'student') {
                     header('Refresh: 1; url=' . $url_acc_std);
                 }
             }
@@ -20,7 +20,7 @@
             if (!sign_in_cmp()) {
                 header('Refresh: 1; url=' . $url_in);
             } else {
-                if ($_SESSION['user']['0'] == 'company') {
+                if ($_SESSION['user']['type'] == 'company') {
                     header('Refresh: 1; url=' . $url_acc_cmp);
                 }
             }

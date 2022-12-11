@@ -1,14 +1,5 @@
 <?php 
-    // Init site function
-    function init() {
-        // session start
-        session_start();
 
-        // Global db connect id
-        $_SESSION['db_connection'] = 0;
-        $_SESSION['name'] = 0;
-        // echo $_SESSION['db_connection'];
-    }
 
     // connect to DB funtion
     function connect() {
