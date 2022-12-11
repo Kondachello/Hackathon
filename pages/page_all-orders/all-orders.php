@@ -26,7 +26,14 @@
           </div>
           <div class="col-md-3 preanim-left">
             <p class="text1" style="margin-bottom: 10px; text-align: left">Искать по тегам</p>
-            <input class="reg_input" placeholder="Введите тег" style="text-align: left; width: 100%;" name="tags"><br><br><br>
+            <br>
+            <input class="reg_input" placeholder="   Введите тег" style="text-align: left; width: 100%;" name="tags"><br><br><br>
+            <div>
+              <br><br>
+              <form action="../page_order/all-orders.php">
+                <button class="button">Искать</button>
+              </form>
+            </div>
           </div>
           <div class="col-md-1">
           </div>
