@@ -18,6 +18,7 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
+        <img class="photo" src="../../images/ava.jpg" style="border-radius: 30px">
       </div>
 
       <br><br><br>
