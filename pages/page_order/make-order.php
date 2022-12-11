@@ -51,11 +51,11 @@ session_start();
             <div class="col-md-3 preanim-right">
               <p class="text6" style="margin-bottom: 10px">Загрузите файлы</p>
               <br>
-              <input class="add_file" type="file" name="order_avatar">
+              <input class="add_file" type="file" name="order_rar">
               <br>
               <p class="text6" style="margin-bottom: 10px">Загрузите аватарку проекта</p>
               <br>
-              <input class="add_file" type="file" name="order_rar">
+              <input class="add_file" type="file" name="order_avatar">
               <br>
               <p class="text6" style="margin-bottom: 10px">Опишите теги</p>
               <input class="reg_input" placeholder="Введите тег" style="text-align: left;" name="tags"><br><br><br>

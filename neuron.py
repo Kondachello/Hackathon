@@ -1,8 +1,10 @@
 import tensorflow as td
 from tensorflow import keras
 import numpy as np
-import mysql.connector
 import sys
+sys.path.append("C:/Program Files/MySQL/Connector Python 8.0/Examples")
+
+import examples
 
 list1 = ' '.join(sys.argv[1:])
 
@@ -26,7 +28,6 @@ word_index["<UNK>"] = 2
 word_index["<UNUSED>"] = 3
 
 reverse_word_index = dict([(value, key) for (key, value) in word_index.items()])
-
 def decode_review(text):
 	return " ".join([reverse_word_index.get(i, "?") for i in text])
 model = keras.models.load_model("model.h5")

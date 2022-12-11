@@ -49,7 +49,7 @@
         </div>
         <div style="float: left; margin-left: 35px;">
           <br><br><br>
-          <p class="text1"><?php echo get_title($_SESSION['user']['name']); ?></p>
+          <p class="text1"><?php echo get_title($_SESSION['user']['name'])."(?)"; ?></p> <!--rand(1.0, 5.0)-->
           <p class="text2"><?php echo get_dash($_SESSION['user']['name']); ?></p>
           <br>
           <a href="<?php echo get_link_vk($_SESSION['user']['name']); ?>" class="svg">
@@ -77,9 +77,8 @@
             <button class="button">Редактировать профиль</button>
           </form>
           <?php 
-            $python = exec("../../neuron.py");//shell_exec('python ../../neuron.py');
+            $python = exec("../../neuron.py".$_SESSION['user']['name']);//shell_exec('python ../../neuron.py');
             echo $python;
-            echo "sdf";
           ?>
         </div>
       </div>

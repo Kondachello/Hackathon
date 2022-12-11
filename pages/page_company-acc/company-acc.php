@@ -31,7 +31,7 @@
         }
         
         ?>
-        <img class="photo" src="<?php echo get_ava_url($_SESSION['user']['name']); ?>">
+        <img class="photo" src="<?php echo get_ava_url($_SESSION['user']['name']); ?>" style="border-radius: 30px;">
       </div>
 
       <br><br><br><br>

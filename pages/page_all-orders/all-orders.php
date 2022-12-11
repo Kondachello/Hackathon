@@ -3,6 +3,10 @@
   
   session_start();
 
+  // echo "<pre>";
+  // print_r($_SESSION['search']);// = [];
+  // echo "</pre>";
+  //$_SESSION['search'] = [];
 ?>
 <!DOCTYPE html>
 <html>
@@ -68,9 +72,13 @@
       <?php 
         get_all_orders();
         
+        
         if (count($_SESSION['search']) != 0) {
           for ($i = 0; $i < count($_SESSION['search']); $i++) {
             $order_i = get_order_for_id($_SESSION['search'][$i]['name']);
+            // echo "<pre>";
+            // print_r($order_i);// = [];
+            // echo "</pre>";
             echo '<div class="preanim-left" style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
                     <div>
                       <img src="'.$order_i['Image'].'" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
@@ -79,7 +87,7 @@
                       <br><br><br>
                       <form method="post" action="action_all-orders.php" id="form1">
                       
-                      <button name="srch" value="'.$order_i['id'].'" href="../page_company-order/company-order.php" style="text-decoration: none;">
+                      <button name="srch" value="'.$order_i['id'].'" href="../page_company-order/company-order.php" style="text-decoration: none; background-color: transparent; border-color: transparent;">
                       <pre class="text1">       '.$order_i['Title'].'</pre>
                       </button>
                       </form>

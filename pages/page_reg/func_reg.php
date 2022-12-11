@@ -81,8 +81,9 @@
                 return false;
             }
             else {
+                $url = '../../Data/Orders/Avatars/40_1.jpg';
                 $qery_to_reg = "INSERT INTO `usercompany` (`id`, `UserName`, `Email`, `Password`, `Img`, `Title`, `Discription`, `Orders`, `Investment`, `Contacts`, `Tags`, `QrCode`, `Dash`) 
-            VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$title."', '', '', '', '', '', '', '')";
+            VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '".$url."', '".$title."', '', '', '', '', '', '', '')";
                 $return = mysqli_query($db_connection, $qery_to_reg);
                 if ($return) {
                      $_SESSION['user'] = "Вы зарегестрировались";
