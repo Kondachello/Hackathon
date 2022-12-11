@@ -18,80 +18,41 @@
 
       <br><br><br><br>
 
-      <div style="background: url(../../images/1.jpg); background-size: 100% 100%; background-repeat: no-repeat; height: 100%; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
-        <div>
-          <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
-        </div>
-        <div style="float: left; margin-left: 35px;">
-          <br><br><br>
-          <p class="text1">Apple</p>
-          <p class="text2">Моя цель</p>
-          <br><br><br>
-          <a href="http://vk.com" class="svg">
-            <object
-              type="image/svg+xml"
-              data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
-            </object>
-          </a>
-          <a href="http://t.me" class="svg">
-            <object
-              type="image/svg+xml"
-              data="../../svg/telegram-svgrepo-com.svg" width="50px">
-            </object>
-          </a>
-          <a href="http://github.com" class="svg">
-            <object
-              type="image/svg+xml"
-              data="../../svg/github-svgrepo-com.svg" width="50px">
-            </object>
-          </a>
-        </div>
-        <div style="float: right; margin-right: 50px; margin-top: 185px;">
-          <br><br>
-          <form action="pages/page_reg/reg_student.php" align="bottom">
-            <button class="button">Редактировать профиль</button>
-          </form>
-        </div>
-      </div>
-
-      <br><br><br><br>
-
-      <p class="text5" style="margin-left: 200px;">Строим самолет</p><br>
-      <div class="container" style="background: url(../../images/bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 80%; height: 300px; margin-left: 10%">
+      <p class="text5" style="text-align: center;">Строим самолет</p><br>
+      <div class="container-fluid" style="border-radius: 20px; position:relative; height: 300px">
         <div class="row">
-          <div class="col-md-7">
-            <p class="text1">Описание проекта</p>
-            <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          </div>
           <div class="col-md-1">
           </div>
           <div class="col-md-3">
-            <p class="text1">Приложения</p>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
+            <p class="text1" style="margin-bottom: 10px; text-align: left">Искать по тегам</p>
+            <input class="reg_input" placeholder="Введите тег" style="text-align: left; width: 100%;" name="tags"><br><br><br>
           </div>
           <div class="col-md-1">
+          </div>
+          <div class="col-md-2">
+            <p class="text1" style="margin-bottom: 10px; text-align: center">Фильтры</p>
+            <p class="text3" style="margin-bottom: 10px; margin-left: 10px;">Цена (Р)</p>
+            <input class="reg_input" placeholder="От" style="width: 50%; float: left;" name="price_at" align="left">
+            <input class="reg_input" placeholder="До" style="width: 50%;" name="price_to" align="right"><br><br><br><br>
+            <p class="text3" style="margin-bottom: 10px; margin-left: 10px;">Сроки (Д)</p>
+            <input class="reg_input" placeholder="От" style="width: 50%; float: left;" name="date_at" align="left">
+            <input class="reg_input" placeholder="До" style="width: 50%;" name="date_to" align="right">
+          </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-4">
+            <img class="image-fluid rounded" width="400px" src="../../images/me.jpg">
           </div>
         </div>
       </div>
 
       <br><br><br>
 
-      <p class="text1" style="margin-left: 200px;">Отклики</p><br>
+      <p class="text5" style="margin-left: 100px;">Результаты поиска</p><br>
 
-      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 500px; margin-left: 5%">
+      <div style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
         <div>
-          <img src="../../images/jr.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+          <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
         <div style="margin-left: 35px;">
           <br><br><br>
