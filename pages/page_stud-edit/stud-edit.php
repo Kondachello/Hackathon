@@ -59,55 +59,54 @@
 
       <br><br><br><br>
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-3 preanim-left">
+      <form action="action_stud-edit.php" method="post" enctype="multipart/form-data">
             <p class="text5">Имя, Фамилия</p>
             <input class="reg_input" name="" placeholder="Иванов Иван" style="width: 80%"><br><br>
+            <input class="reg_input" name="NamSurName" placeholder="Иванов Иван" style="width: 80%"><br><br>
             <p class="text5">Девиз</p>
             <input class="reg_input" name="" placeholder="Моя цель" style="width: 80%">
+            <input class="reg_input" name="Dash" placeholder="Моя цель" style="width: 80%">
           </div>
           <div class="col-md-1">
           </div>
-          <div class="col-md-2 preanim-bot">
+          <div class="col-md-2">
             <p class="text5" style="text-align:center">Изменить аватар</p>
             <p class="text6" style="margin-bottom: 10px; text-align:center">Загрузите файлы</p>
             <div class="add_file">
               <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
+              <input class="add_file" type="file" name="file_ava">
+              <!-- <p style="margin-top: 15px;">1 main.cpp 1.3KB</p> -->
             </div>
           </div>
           <div class="col-md-1">
-          </div>
-          <div class="col-md-3 preanim-right">
-            <pre class="text5">  Редактировать контакты</pre>
-            <object
-              type="image/svg+xml"
-              data="../../svg/vk-v2-svgrepo-com.svg" width="50px" style="float: left;">
+
             </object>
             <input class="reg_input" name="" placeholder="t.me/itmo" style="width: 80%;"><br><br>
+            <input class="reg_input" name="vk" placeholder="t.me/itmo" style="width: 80%;"><br><br>
             <object
               type="image/svg+xml"
               data="../../svg/telegram-svgrepo-com.svg" width="50px" style="float: left;">
             </object>
             <input class="reg_input" name="" placeholder="vk.com/itmo" style="width: 80%"><br><br>
+            <input class="reg_input" name="tg" placeholder="vk.com/itmo" style="width: 80%"><br><br>
             <object
               type="image/svg+xml"
               data="../../svg/github-svgrepo-com.svg" width="50px" style="float: left;">
             </object>
             <input class="reg_input" name="" placeholder="github.com/itmo" style="width: 80%"><br><br>
+            <input class="reg_input" name="git" placeholder="github.com/itmo" style="width: 80%"><br><br>
           </div>
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-3 preanim-left">
+                <div class="col-md-1">
+                </div>
+
             <p class="text5" style="margin-left: 150px">Редактировать резюме</p>
-
             <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
-
+            <textarea class="add_input" rows="5" cols="60" name="Resume"></textarea><br><br>
             <form action="../page_all-orders/all-orders.php" style="margin-left: 150px;">
+            <span  style="margin-left: 150px;">
               <button class="button">Применить изменения</button>
-            </form>
+            </span>
+      </form>
           </div>
         </div>
       </div>
