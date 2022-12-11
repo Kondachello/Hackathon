@@ -1,3 +1,10 @@
+<?php
+  include "func_company-order.php";
+
+  session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -62,22 +69,14 @@
         <div class="row">
           <div class="col-md-7 preanim-left">
             <p class="text1">Описание проекта</p>
-            <p class="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p class="text2"><?php ?>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. File ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
           </div>
           <div class="col-md-1">
           </div>
           <div class="col-md-3 preanim-right">
             <p class="text1">Приложения</p>
             <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
-            </div>
-            <br>
-            <div class="add_file">
-              <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
+              <a href="<?php echo get_link_file_rar(); ?>"><p style="margin-top: 15px;">1 main.cpp 1.3KB</p></a>
             </div>
             <br>
           </div>
