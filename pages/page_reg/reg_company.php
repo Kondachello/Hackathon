@@ -22,7 +22,7 @@
 
       <br><br><br>
 
-      <div class="container-fluid preanim-left">
+      <div class="container-fluid preanim-left animated-left">
         <div class="row">
           <div class="col-md-4">
           </div>

@@ -17,11 +17,12 @@
 
       <div class="header">
         <p class="logo">Sh.</p>
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
       </div>
 
       <br><br><br><br><br><br><br>
 
-      <div class="container-fluid">
+      <div class="container-fluid preanim-up animated-up">
         <div class="row">
           <div class="col-md-4">
           </div>
