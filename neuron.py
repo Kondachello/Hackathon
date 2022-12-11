@@ -2,6 +2,9 @@ import tensorflow as td
 from tensorflow import keras
 import numpy as np
 import mysql.connector
+import sys
+
+list1 = ' '.join(sys.argv[1:])
 
 mydb = mysql.connector.connect(
 	host="127.0.0.1",
@@ -58,3 +61,4 @@ def estim_stud(username):
 		print('hello')
 	f.close()
 print('sex')
+estim_stud(list1)
