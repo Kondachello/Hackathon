@@ -2,7 +2,7 @@
     include "../../DataBase.php";
 
     // All orders from bd
-    $orders = array(array());
+    $orders = [];
 
     function parser_tags($text) {
         $res = array();
@@ -31,10 +31,9 @@
 
         $query_db = mysqli_query($db_connect, "SELECT * FROM `orders`");
 
-        $i = 0;
         while (($table_query = mysqli_fetch_assoc($query_db))) {
-            $orders[$i] = $table_query;
-            $i++;
+            array_push($orders, $table_query);
+            
         }
     }
     
@@ -47,7 +46,19 @@
         echo "</pre>";
     }
 
-    function is_in_array($arr, $x, $ind) {
+    function get_order_for_id($id) {
+        global $orders;
+
+        for ($i = 0; $i < count($orders); $i++) {
+            if ($orders[$i]['id'] == $id) {
+                return $orders[$i];
+            }
+        }
+
+        return false;
+    }
+
+    function is_in_array($arr, $x, &$ind) {
         $cnt = 0;
         for ($i = 0; $i < count($arr); $i++) {
             if ($arr[$i]['name'] == $x) {
@@ -73,46 +84,71 @@
         return false;
     }
 
+    /* Функция для нашей сортировки */
+    function compare ($v1, $v2) {
+        /* Сравниваем значение по ключу date_reg */
+        if ($v1['fame'] == $v2['fame']) {
+            return 0;
+        }
+
+        return ($v1['fame'] > $v2['fame']) ? -1 : 1;
+    }
+
     function tag_search($tags) {
         global $orders;
 
         $db_connect = connect();
         $query_db = mysqli_query($db_connect, "SELECT * FROM `orders_tags`");
 
-        $res = [];//array('name' => '', 'fame' => '');
+        $res = [];
 
         $order_tags = [];
         
         while (($table_query = mysqli_fetch_assoc($query_db))) {
             array_push($order_tags, $table_query);    
         }
-        // echo "<pre>";
-        // print_r($orders);
-        // echo "</pre>";
 
         for ($ot = 0; $ot < count($order_tags); $ot++) {
             for ($i = 0; $i < count($tags); $i++) {
+                
                 if ($order_tags[$ot]['tag_id'] == get_tag_id($tags[$i])) {
+                  
                     $ind = 0;
                     $fm = is_in_array($res, $order_tags[$ot]['order_id'], $ind);
-                    if ($fm != 0 and $ind != -1) {
+                    if ($fm != 0) {
+
+                        if ($ind == -1) {
+                            $ind = 0;
+                        }
                         $fm++;
-                        $res[$ind]['fame'] = $fm;             
+                        $res[$ind]['fame'] = $fm;
                     }
                     else {
                         $fm++;
                         array_push($res, array('fame' => $fm, 'name' => $order_tags[$ot]['order_id']));
+                        
                     }
+                    
                 }
             }
         }
-        
-        arsort($res);
-        
-        echo "<pre>";
-        print_r($res);
-        echo "</pre>";
+        usort($res, "compare"); // Вызываем пользовательскую сортировку
+        // arsort($res);
 
-        //return $res;
+        return $res;
     }
+
+    // $cmp_acc = [];
+
+    // function init() {
+    //     global $cmp_acc;
+        
+    //     $db_connect = connect();
+
+    //     $query_db_users_company = mysqli_query($db_connect, "SELECT * FROM `usercompany`");
+
+    //     while (($cmp_acc_prev = mysqli_fetch_assoc($query_db_users_company))) {
+    //         array_push($cmp_acc, $cmp_acc_prev);
+    //     }        
+    // }
 ?>
