@@ -29,10 +29,10 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <?php
-        if ($_SESSION['user']['type'] == 'company') {
-        echo '<a class="link" href="../page_all-orders/all-orders.php">Все задачи</a>
-              <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:100px">Вход</a>
-              <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:200px">Вход</a>';
+        if ($_SESSION['user']['type'] == 'student') {
+          echo '<a class="link" href="../page_all-orders/all-orders.php">Все задачи</a>
+                <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:100px">Вход</a>
+                <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:200px">Вход</a>';
         } 
         else {
           echo '<a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>';

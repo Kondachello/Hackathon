@@ -2,6 +2,7 @@
   include "func_all-orders.php";
   
   session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
