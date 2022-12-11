@@ -12,6 +12,7 @@
 
 <!-- JavaScript -->
     <script src="../../modules/itc-slider/itc-slider.js" defer></script>
+    <script src="../../scroll.js"></script>
 
   </head>
   <body>    
@@ -20,10 +21,11 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <a class="link" href="#">Вход</a>
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <img class="photo" src="../../images/ava.jpg">
       </div>
 
-      <div style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
+      <div class = "preanim-up animated-up" style="background: url(../../images/std-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
           <img src="../../images/me.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
@@ -61,11 +63,11 @@
 
       <br><br><br><br>
 
-      <div class="container-fluid">
+      <div class="container-fluid ">
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 preanim-left">
             <p class="text5">У меня в работе</p>
 
             <br>
@@ -138,7 +140,7 @@
           <div class="col-md-1">
             <div class="v2"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 preanim-right">
             <p class="text5">Мои группы</p>
 
             <br>
@@ -215,7 +217,7 @@
         <div class="row">
           <div class="col-md-1">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 preanim-left">
             <p class="text5">Мои проекты</p>
 
             <br>
@@ -286,7 +288,7 @@
           <div class="col-md-1">
             <div class="v2"></div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 preanim-right">
             <p class="text5">Мое портфолио</p>
 
             <br>
