@@ -1,3 +1,10 @@
+<?php
+  include "func_company-acc.php";
+
+  session_start();
+
+  init();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,34 +20,44 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
-        <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
-        <img class="photo" src="../../images/ava.jpg">
+        <?php
+        if ($_SESSION['user']['type'] == 'company') {
+        echo '<a class="link" href="../page_all-orders/all-orders.php">Все задачи</a>
+              <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:100px">Вход</a>
+              <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:200px">Вход</a>';
+        } 
+        else {
+          echo '<a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>';
+        }
+        
+        ?>
+        <img class="photo" src="<?php echo get_ava_url($_SESSION['user']['name']); ?>">
       </div>
 
       <br><br><br><br>
 
       <div class="preanim-left" style="background: url(../../images/cmp-prf-bg.jpg); background-size: 100% 100%; background-repeat: no-repeat; border-radius: 20px; position:relative; width: 90%; height: 300px; margin-left: 5%">
         <div>
-          <img src="../../images/apple.jpg" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
+          <img src="<?php echo get_ava_url($_SESSION['user']['name']); ?>" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
         </div>
         <div style="float: left; margin-left: 35px;">
           <br><br><br>
-          <p class="text1">Apple</p>
-          <p class="text2">Наша цель</p>
+          <p class="text1"><?php echo get_title($_SESSION['user']['name']); ?></p>
+          <p class="text2"><?php echo get_dash($_SESSION['user']['name']); ?></p>
           <br>
-          <a href="http://vk.com" class="svg">
+          <a href="<?php echo get_link_vk($_SESSION['user']['name']); ?>" class="svg">
             <object
               type="image/svg+xml"
               data="../../svg/vk-v2-svgrepo-com.svg" width="50px">
             </object>
           </a>
-          <a href="http://t.me" class="svg">
+          <a href="<?php echo get_link_tg($_SESSION['user']['name']); ?>" class="svg">
             <object
               type="image/svg+xml"
               data="../../svg/telegram-svgrepo-com.svg" width="50px">
             </object>
           </a>
-          <a href="http://github.com" class="svg">
+          <a href="<?php echo get_link_git($_SESSION['user']['name']); ?>" class="svg">
             <object
               type="image/svg+xml"
               data="../../svg/github-svgrepo-com.svg" width="50px">
@@ -49,7 +66,7 @@
         </div>
         <div style="float: right; margin-right: 50px; margin-top: 150px;">
           <br><br>
-          <form action="pages/page_reg/reg_student.php" align="bottom">
+          <form action="../page_company-edit/company-edit.php" align="bottom">
             <button class="button">Редактировать профиль</button>
           </form>
         </div>

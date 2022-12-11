@@ -21,7 +21,7 @@
     <div class="bg">
       <div class="header">
         <p class="logo">Sh.</p>
-        <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
         <img class="photo" src="images/ava.jpg">
       </div>
@@ -81,7 +81,7 @@
             <br>
             <p class="text1" style="text-align: right;">Инвестируйте в проекты студентов</p>
             <p class="text2" style="text-align: right;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-            <form action="pages/page_reg/reg_student.php" align="right">
+            <form action="pages/page_reg/reg_company.php" align="right">
               <button class="button">Инвестировать</button>
             </form>
           </div>
@@ -132,22 +132,22 @@
           <div class="itc-slider__wrapper">
             <div class="itc-slider__items">
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/vk.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/tg.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/github.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/30.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/itmo.jpg">
               </div>
               <div class="itc-slider__item">
-                <img class="rounded img-fluid" width = "90%" src="images/jr.jpg">
+                <img class="rounded img-fluid" width = "90%" src="images/jb.jpg">
               </div>
             </div>
           </div>

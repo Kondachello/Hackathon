@@ -81,8 +81,8 @@
                 return false;
             }
             else {
-                $qery_to_reg = "INSERT INTO `usercompany` (`id`, `UserName`, `Email`, `Password`, `Img`, `Title`, `Discription`, `Orders`, `Investment`, `Contacts`, `Tags`, `QrCode`) 
-            VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$title."', '', '', '', '', '', '')";
+                $qery_to_reg = "INSERT INTO `usercompany` (`id`, `UserName`, `Email`, `Password`, `Img`, `Title`, `Discription`, `Orders`, `Investment`, `Contacts`, `Tags`, `QrCode`, `Dash`) 
+            VALUES (NULL, '".$user_name."', '".$email."', '".$psw."', '', '".$title."', '', '', '', '', '', '', '')";
                 $return = mysqli_query($db_connection, $qery_to_reg);
                 if ($return) {
                      $_SESSION['user'] = "Вы зарегестрировались";
