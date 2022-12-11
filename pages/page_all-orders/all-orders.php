@@ -71,13 +71,15 @@
         if (count($_SESSION['search']) != 0) {
           for ($i = 0; $i < count($_SESSION['search']); $i++) {
             $order_i = get_order_for_id($_SESSION['search'][$i]['name']);
-            echo '<div class="preanim-left"style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
+            echo '<div class="preanim-left" style="background: #003E51; border-radius: 20px; position:relative; width: 90%; height: 550px; margin-left: 5%">
                     <div>
                       <img src="'.$order_i['Image'].'" style="background-size: 100% 100%; height: 200px; width: 200px; margin-left: 50px; margin-top: 50px; float:left; border-radius: 100px;">
                     </div>
                     <div style="margin-left: 35px;">
                       <br><br><br>
-                      <pre class="text1">'.$order_i['Title'].'</pre>
+                      <a href="../page_company-order/company-order.php" style="text-decoration: none;">
+                        <pre class="text1">       '.$order_i['Title'].'</pre>
+                      </a>
                       <pre class="text2">        Моя цель - помочь людям достигнуть своей цели !</pre>
                       <br><br><br>
                     </div>
