@@ -105,9 +105,9 @@
           </div>
           <div class="col-md-6">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <p class="text3">Our contacts</p>
-            <p class="text4">tel: 8-800-555-35-35<br/>лучше позвонить чем отсосать<br/>e-mail: her@pizda.hub<br/>t.me/hui_pizda</p>
+            <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
           </div>
           <div class="col-md-1">
           </div>
