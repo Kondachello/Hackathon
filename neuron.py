@@ -51,6 +51,9 @@ def estim_stud(username):
 		encode = review_encode(nline)
 		encode = keras.preprocessing.sequence.pad_sequences([encode], value=word_index["<PAD>"], padding="post", maxlen=50) # make the data 250 words long
 		predict = model.predict(encode)
-		print(predict[0])
+		sql = "INSERT INTO userstudent (NeironRevie) VALUES (%s)"
+		val = str(predict[0])
+		mycursor.execute(sql, val)
+		mydb.commit()
+		print('hello')
 	f.close()
-estim_stud("xxxx")
