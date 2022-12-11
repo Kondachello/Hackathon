@@ -17,6 +17,7 @@
       <div class="header">
         <p class="logo">Sh.</p>
         <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
+        <img class="photo" src="../../images/ava.jpg" style="border-radius: 30px">
       </div>
 
       <br><br><br>
@@ -80,9 +81,9 @@
           </div>
           <div class="col-md-6">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <p class="text3">Our contacts</p>
-            <p class="text4">tel: 8-800-555-35-35<br/>лучше позвOOOOOOOOOOOOOонить чем отсосать<br/>e-mail: her@pizda.hub<br/>t.me/hui_pizda</p>
+            <p class="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
           </div>
           <div class="col-md-1">
           </div>
