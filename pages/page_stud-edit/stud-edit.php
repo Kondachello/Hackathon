@@ -75,20 +75,7 @@
           <div class="col-md-2">
             <p class="text5" style="text-align:center">Изменить аватар</p>
             <p class="text6" style="margin-bottom: 10px; text-align:center">Загрузите файлы</p>
-            <div class="add_file" style="width: 450px;
-  border-radius: 10px;
-  height: 60px;
-  width: 100%;
-  color: #FFFFFF;
-  font-family: 'Inter-Thin';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  text-align: center;
-  background: #666666;
-  border: solid #666666;
-  border-width: 1px;">
+            <div class="add_file">
               <p style="margin-top: 15px;">1 main.cpp 1.3KB</p>
             </div>
           </div>
@@ -121,23 +108,7 @@
 
       <p class="text5" style="margin-left: 150px">Редактировать резюме</p>
 
-      <textarea class="add_input" rows="5" cols="60" name="Require" style="max-width: 450px;
-  min-width: 450px;
-  border-radius: 35px;
-  width: 450px;
-  color: #FFFFFF;
-  font-family: 'Inter-Thin';
-  font-style:
-  italic;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 24px;
-  text-align: center;
-  background: transparent;
-  border: solid #8901FF;
-  border-width: 1px;
-  margin-top: 10px;
-  margin-left: 150px;"></textarea><br><br>
+      <textarea class="add_input" rows="5" cols="60" name="Require"></textarea><br><br>
 
       <form action="../page_all-orders/all-orders.php" style="margin-left: 150px;">
         <button class="button">Применить изменения</button>
