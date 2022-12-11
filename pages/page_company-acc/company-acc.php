@@ -22,7 +22,7 @@
         <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <?php
         if ($_SESSION['user']['type'] == 'company') {
-        echo '<a class="link" href="pages/page_reg/reg_sign_in.php">Студенты</a>
+        echo '<a class="link" href="../page_all-orders/all-orders.php">Все задачи</a>
               <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:100px">Вход</a>
               <a class="link" href="pages/page_reg/reg_sign_in.php" style="margin-right:200px">Вход</a>';
         } 
