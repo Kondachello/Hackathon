@@ -66,8 +66,9 @@
               ?>
               </p>
               <a class="link_password" href="#">Забыли пароль?</a><br>
-              <a class="link_password" href="reg_company.php">Регистрация</a><br><br>
-              
+              <a class="link_password" href="reg_student.php">Регистрация студента</a>
+              <a class="link_password">/</a>
+              <a class="link_password" href="reg_company.php">Регистрация компании</a><br><br>
 
               <form action="reg_action.php" method="post" align="right">
                 <button class="button" name="In" value="In" >Войти</button>
