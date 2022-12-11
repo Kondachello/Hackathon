@@ -11,7 +11,7 @@
     <div class="bg">
       <div class="header">
         <p class="logo">Sh.</p>
-        <img class="img-fluid" style="width: 100%; height: 80px;" src="https://im.wampi.ru/2022/12/09/ij0LMGcdee5ff9805d8104.gif" alt="я джифка">
+        <img class="img-fluid" style="width: 100%; height: 80px;" src="../../images/header.gif" alt="я джифка">
         <a class="link" href="pages/page_reg/reg_sign_in.php">Вход</a>
         <img class="photo" src="../../images/ava.jpg">
       </div>
