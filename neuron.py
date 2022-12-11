@@ -1,6 +1,16 @@
 import tensorflow as td
 from tensorflow import keras
 import numpy as np
+import mysql.connector
+
+mydb = mysql.connector.connect(
+	host="127.0.0.1",
+	user="root",
+	password="neAuti228cg_huyble",
+	database="Hackathon 5",
+	port="3306"
+)
+mycursor = mydb.cursor()
 
 data = keras.datasets.imdb
 
@@ -28,11 +38,19 @@ def review_encode(s):
 			encoded.append(2)
 
 	return encoded
-
-with open("text.txt", encoding="utf-8") as f:
+def estim_stud(username):
+	sql = f"SELECT Reviews FROM userstudent WHERE UserName ='{username}'"
+	mycursor.execute(sql)
+	myresult = mycursor.fetchall()
+	f = open('text.txt', 'w')
+	f.write(str(myresult))
+	f.close()
+	f = open('text.txt', 'r')
 	for line in f.readlines():
 		nline = line.replace(",", "").replace(".", "").replace("(", "").replace(")", "").replace(":", "").replace("\"","").strip().split(" ")
 		encode = review_encode(nline)
 		encode = keras.preprocessing.sequence.pad_sequences([encode], value=word_index["<PAD>"], padding="post", maxlen=50) # make the data 250 words long
 		predict = model.predict(encode)
 		print(predict[0])
+	f.close()
+estim_stud("xxxx")
