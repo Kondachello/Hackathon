@@ -76,6 +76,11 @@
           <form action="../page_stud-edit/stud-edit.php" align="bottom">
             <button class="button">Редактировать профиль</button>
           </form>
+          <?php 
+            $python = exec("../../neuron.py");//shell_exec('python ../../neuron.py');
+            echo $python;
+            echo "sdf";
+          ?>
         </div>
       </div>
 
