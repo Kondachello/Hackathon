@@ -1,6 +1,26 @@
 <?php
     include "../../DataBase.php";
 
+    function parser_tags($text) {
+        $res = array();
+        $l = strlen($text);
+        $tag = '';
+        $i = 0;
+        while ($i < $l) {
+            if ($text[$i] != ';') {
+                $tag = $tag . $text[$i];
+            }
+            else {
+                $tag = ltrim($tag);
+                array_push($res, $tag);
+                $tag = '';
+            }
+            $i++;
+        }
+
+        return $res;
+    }
+
     function bind_tag_order($order_id, $tag_id) {
         $db_connect = connect();
 
@@ -26,8 +46,7 @@
             }
         }
         
-
-
+        return false;
     }
 
     function add_order() {
@@ -64,6 +83,16 @@
         $date_to = $_POST['date_to'];
         $tags = $_POST['tags'];
 
+
+
+        // Tag system
+        $tags_arr = parser_tags($tags);
+        for ($j = 0; $j < count($tags_arr); $j++) {
+            $tag_id = get_tag_id($tags_arr[$j]);
+            // echo "id: ". $tag_id . " tag: " . $tags_arr[$j] . "<br>";
+
+            bind_tag_order($id, $tag_id);            
+        }
 
         $path_ava = $url_avatars . $file_order_avatar_name;
         $path_rar = $url_files . $file_order_rar_name;

@@ -1,5 +1,7 @@
 <?php
-  session_start();
+    include "func_make-order.php";
+
+    session_start();
 ?>
 
 <!DOCTYPE html>
